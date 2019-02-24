@@ -1,0 +1,46 @@
+% -*- coding: utf-8 -*-
+
+%\clearpage
+%\addcontentsline{toc}{chapter}{摘要}
+\begin{zhaiyao}
+近年来，VoIP应用凭借其丰富的服务和低廉的价格已经成为了重要的通信服务手段。
+%VoIP是一种把语音整合到IP协议中并通过因特网传输的网络技术，其最大的优势便是提供通过互联网和全球用户终端互联的环境。
+不幸的是，VoIP服务为人类带来便利性的同时，也造成了诸多的社会问题。诈骗分子利用VoIP所提供的便利的服务实施犯罪活动，
+%通过将VoIP呼叫系统架设于境外代理服务器，以匿名接入的方式对中国境内电话进行批量呼叫实施诈骗。VoIP服务基于网络技术的本质所提供的可编程性，使得诈骗分子可以修改主叫号码，操作路由跳板，
+对我国诈骗案件的侦破造成了极大的困难。
+%根据《2017中国反通讯网络诈骗半年报》显示，我国每15个人当中就有一个接到过诈骗电话。
+我国反VoIP作案面临严峻的局势，为了使VoIP进一步服务于人类，对恶意VoIP的监管是必要的。
+
+网络流量识别是一个较热门的研究领域，主流的流量分类方法包括基于端口的识别方法，基于字节、字符等的模式识别方法，基于行为的分析方法和基于机器学习的识别方法等。由于VoIP应用具有加密和P2P特性，以上分类方法大部分很难单独应用于VoIP流量识别，目前较为成熟的VoIP流量识别方法普遍采用多种方法结合的策略。另一方面，VoIP流量识别要求较高的实时性，一些基于流特征进行识别的方法不能被应用于实时识别。此外，对VoIP流量建立特征集的任务也是极其繁琐的。
+%但是对VoIP流量的识别普遍要求要高的实时性，基于流特征的识别方法不能被应用于实时识别。而基于机器学习的识别方法需要人为的对VoIP应用建立特征集，其任务是极其繁琐的。
+
+本文针对上述问题进行研究，第一，系统地归纳了各类VoIP识别方法，包括非实时的识别和实时的识别方法，并且从不同的识别层面上作出比较；第二，本文围绕VoIP应用类型采用CLNN（卷积神经网络，长短期记忆网络）模型提取特征，提取特征的过程不但不需要人为参与，并且提取的特征具有更高的精确度。第三，基于本文提出的方法，我们设计并实现了一个VoIP实时识别系统，该系统采用Apahce Storm作为流处理计算引擎，支持在大规模的网络中采集并识别VoIP流量。实验结果表明，该系统可以实时的准确识别VoIP流量。
+\\
+\end{zhaiyao}
+
+\begin{flushleft}
+\begin{guanjianci}
+VoIP；流量识别；实时；卷积神经网络；长短期记忆网络
+\end{guanjianci}
+\end{flushleft}
+
+%\clearpage
+%\addcontentsline{toc}{chapter}{Abstract}
+\begin{abstract}
+Recently, owing to the service and price advantage, VoIP has become an important communication technology. 
+%VoIP is a network technology that borns for the delivery of voice communications over Internet Protocol (IP) networks, the biggest advantage of VoIP is to provider the environment that supports terminals interconnect with Internet. 
+Unfortunately, while providing convenience services, it also causes some social tragedies. Swindlers handle VoIP services provided by VoIP to carry out criminal activities, 
+%they set up VoIP proxy server oversea and make fraud calls anonymously. Swindlers can change call ID and route hops through the programmability VoIP services provide, 
+which causes great difficulties in solving fraud cases. We are facing severe situation to against VoIP frauds, in order to make VoIP applications serve humans better, it is important to keep VoIP applications under supervision. 
+
+Traffic identification has been an active research topic in the past decade, several methods have been given, which can be generalized as port-based, pattern recognition, behavioral analysis, machine learning methods. Due to the encryption and P2P characteristics of VoIP applications, the above identification methods are difficult to be applied to VoIP traffic identification alone, researchers generally adopt a combination of several methods. On the other hand, VoIP identification has strict real-time requirements, the methods based on flow features are not applicable to real-time identification. It is troublesome to extract features for VoIP traffic.
+
+Firstly, various VoIP identification methods are summarized and we compare them from different identification levels; Secondly, we adopt CNN(Convolutional Neural Networks) to extract features for accurate VoIP application identification. These extracted features are not only more reliable than the features extracted by humans, but also greatly improve the identification efficiency; Thirdly, we design a real-time identification system with Apache Storm, it can capture VoIP traffic in a large-scale network and identify their application types with the features we trained. The evaluation results verify that our system can identify VoIP traffic timely and accurately.
+\\
+\end{abstract}
+
+\begin{flushleft}
+\begin{keywords}
+VoIP; application identification; real-time; CNN; LSTM
+\end{keywords}
+\end{flushleft}

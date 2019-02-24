@@ -1,0 +1,2316 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{cfca}{customf}{}
+    \field{addendum}{2017 Global Fraud Loss SurveyCFCA, \\
+  https://zh.scribd.com/document/368471387/2017-Global-Fraud-Loss-Survey-CFCA-pdf.}
+  \endentry
+
+  \entry{caict}{customf}{}
+  \field{addendum}{信息通信行业防范打击通讯信息诈骗白皮书（2018），\\
+  http://www.caict.ac.cn/kxyj/qwfb/bps/201807/P020180711616875493434.pdf.}
+  \endentry
+
+  \entry{2017}{customf}{}
+    \field{addendum}{2017年中国反通讯网络诈骗报告， \\
+  https://gw.alicdn.com/bao/uploaded/LB16jHhkhPI8KJjSspfXXcCFXXa.pdf.}
+  \endentry
+
+  \entry{dailymail}{customf}{}
+    \field{addendum}{Taliban Using Skype Phones to Dodge MI6, The Daily Mail,
+  \\
+  https://www.dailymail.co.uk/news/article-1055611/Taliban-using-Skype-phones-dodge-MI6.html.}
+  \endentry
+
+  \entry{timesofindia}{customf}{}
+    \field{addendum}{Lashkars own Skype frazzles Indian intelligence, Times of
+  India, \\
+  https://timesofindia.indiatimes.com/india/Lashkars-own-Skype-frazzles-Indian-intelligence/articleshow/12934037.cms.}
+  \endentry
+
+  \entry{14}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=CJ}{%
+         family={Curtis},
+         familyi={C\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=CJ}{%
+         family={Cleary},
+         familyi={C\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=MA}{%
+         family={McGregor},
+         familyi={M\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=PM}{%
+         family={Pearson},
+         familyi={P\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \strng{namehash}{CJ+1}
+    \strng{fullhash}{CJCJMAPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Passive and Active Measurement conference}
+    \field{title}{Measurement of voice over IP traffic}
+    \field{year}{2000}
+  \endentry
+
+  \entry{16}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CM}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZGX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Guang-Xing},
+         giveni={G\bibinitperiod-X\bibinitperiod},
+      }}%
+      {{hash=BJP}{%
+         family={Bi},
+         familyi={B\bibinitperiod},
+         given={Jing-Ping},
+         giveni={J\bibinitperiod-P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CMZGXBJP1}
+    \strng{fullhash}{CMZGXBJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Research of SIP-based VoIP traffic identification
+  methodology}
+    \field{volume}{24}
+    \field{journaltitle}{Appl. Res. Comp}
+    \field{year}{2007}
+  \endentry
+
+  \entry{18}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SS}{%
+         family={Sen},
+         familyi={S\bibinitperiod},
+         given={Subhabrata},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Spatscheck},
+         familyi={S\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Dongmei},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SSSOWD1}
+    \strng{fullhash}{SSSOWD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 13th international conference on World
+  Wide Web}
+    \field{pages}{512\bibrangedash 521}
+    \field{title}{Accurate, scalable in-network identification of p2p traffic
+  using application signatures}
+    \field{year}{2004}
+  \endentry
+
+  \entry{2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=IF}{%
+         family={Idrees},
+         familyi={I\bibinitperiod},
+         given={Fauzia},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AU}{%
+         family={Aslam},
+         familyi={A\bibinitperiod},
+         given={Uzma},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IFAU1}
+    \strng{fullhash}{IFAU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A generic technique for Voice over Internet Protocol (VoIP)
+  traffic detection}
+    \field{year}{2008}
+  \endentry
+
+  \entry{19}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=JZ}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Zhigang},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Maode},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LBJZMM1}
+    \strng{fullhash}{LBJZMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Wireless Communications Networking and Mobile Computing
+  (WiCOM), 2010 6th International Conference on}
+    \field{pages}{1\bibrangedash 4}
+    \field{title}{VoIP traffic identification based on host and flow behavior
+  analysis}
+    \field{year}{2010}
+  \endentry
+
+  \entry{20}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=RM}{%
+         family={Rathore},
+         familyi={R\bibinitperiod},
+         given={Mazhar},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Paul},
+         familyi={P\bibinitperiod},
+         given={Anand},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={Awais},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Imran},
+         familyi={I\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Guizani},
+         familyi={G\bibinitperiod},
+         given={Mohsen},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{RM+1}
+    \strng{fullhash}{RMPAAAIMGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 IEEE 41st Conference on Local Computer Networks
+  (LCN)}
+    \field{pages}{595\bibrangedash 598}
+    \field{title}{High-speed network traffic analysis: detecting VoIP calls in
+  secure big data streaming}
+    \field{year}{2016}
+  \endentry
+
+  \entry{21}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SNA}{%
+         family={Saqib},
+         familyi={S\bibinitperiod},
+         given={Nazar\bibnamedelima Abbas},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={SHAKEEL},
+         familyi={S\bibinitperiod},
+         given={YAQOOT},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KMA}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Moazzam\bibnamedelima Ali},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={MEHMOOD},
+         familyi={M\bibinitperiod},
+         given={HASAN},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zia},
+         familyi={Z\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {The Scientific}%
+      {Technological Research Council of Turkey}%
+    }
+    \strng{namehash}{SNA+1}
+    \strng{fullhash}{SNASYKMAMHZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{888\bibrangedash 900}
+    \field{title}{An effective empirical approach to VoIP traffic
+  classification}
+    \field{volume}{25}
+    \field{journaltitle}{Turkish Journal of Electrical Engineering \& Computer
+  Sciences}
+    \field{year}{2017}
+  \endentry
+
+  \entry{5}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AR}{%
+         family={Alshammari},
+         familyi={A\bibinitperiod},
+         given={Riyad},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZHAN}{%
+         family={Zincir-Heywood},
+         familyi={Z\bibinitperiod-H\bibinitperiod},
+         given={A.\bibnamedelima Nur},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{Machine learning;Encrypted traffic;Robustness;Network signatures}
+    \strng{namehash}{ARZHAN1}
+    \strng{fullhash}{ARZHAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{77\bibrangedash 92}
+    \field{title}{Identification of VoIP encrypted traffic using a machine
+  learning approach}
+    \field{volume}{27}
+    \field{journaltitle}{Journal of King Saud University - Computer and
+  Information Sciences}
+    \field{year}{2015}
+  \endentry
+
+  \entry{3}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=YT}{%
+         family={Yildirim},
+         familyi={Y\bibinitperiod},
+         given={Taner},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RPJ}{%
+         family={Radcliffe},
+         familyi={R\bibinitperiod},
+         given={P.\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Machine Learning;VoIP;IPSec;Tunnelled Traffic}
+    \strng{namehash}{YTRPJ1}
+    \strng{fullhash}{YTRPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Conference on Electronics and Information
+  Engineering}
+    \field{pages}{V1\bibrangedash 151 \bibrangedash  V1\bibrangedash 157}
+    \field{title}{VoIP traffic classification in IPSec tunnels}
+    \field{year}{2010}
+  \endentry
+
+  \entry{4}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GJV}{%
+         family={Gomes},
+         familyi={G\bibinitperiod},
+         given={Joao\bibnamedelima V.},
+         giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=IPRM}{%
+         family={Inacio},
+         familyi={I\bibinitperiod},
+         given={Pedro R.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pereira},
+         familyi={P\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FMM}{%
+         family={Freire},
+         familyi={F\bibinitperiod},
+         given={Mario\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MPP}{%
+         family={Monteiro},
+         familyi={M\bibinitperiod},
+         given={Paulo\bibnamedelima P.},
+         giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{SKYPE;CHALLENGES;PATTERNS}
+    \strng{namehash}{GJV+1}
+    \strng{fullhash}{GJVIPRMPMFMMMPP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{10}
+    \field{pages}{2004\bibrangedash 2014}
+    \field{title}{Identification of Peer-to-Peer VoIP Sessions Using Entropy
+  and Codec Properties}
+    \field{volume}{24}
+    \field{journaltitle}{IEEE Transactions on Parallel \& Distributed Systems}
+    \field{year}{2013}
+  \endentry
+
+  \entry{22}{article}{}
+    \name{author}{4}{}{%
+      {{hash=QT}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhaoli},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Guan},
+         familyi={G\bibinitperiod},
+         given={Xiaohong},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{QT+1}
+    \strng{fullhash}{QTWLLZGX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{152\bibrangedash 162}
+    \field{title}{Robust application identification methods for P2P and VoIP
+  traffic classification in backbone networks}
+    \field{volume}{82}
+    \field{journaltitle}{Knowledge-Based Systems}
+    \field{year}{2015}
+  \endentry
+
+  \entry{sen2004accurate}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SS}{%
+         family={Sen},
+         familyi={S\bibinitperiod},
+         given={Subhabrata},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Spatscheck},
+         familyi={S\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Dongmei},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SSSOWD1}
+    \strng{fullhash}{SSSOWD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 13th international conference on World
+  Wide Web}
+    \field{pages}{512\bibrangedash 521}
+    \field{title}{Accurate, scalable in-network identification of p2p traffic
+  using application signatures[C]}
+    \field{year}{2004}
+  \endentry
+
+  \entry{l7filter}{customf}{}
+    \field{addendum}{l7-filter[EB/OL]. \\ http://l7-filter.sourceforge.net.}
+  \endentry
+
+  \entry{bujlow2015independent}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BT}{%
+         family={Bujlow},
+         familyi={B\bibinitperiod},
+         given={Tomasz},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CEV}{%
+         family={Carela-Espa{\~n}ol},
+         familyi={C\bibinitperiod-E\bibinitperiod},
+         given={Valent{\'\i}n},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BRP}{%
+         family={Barlet-Ros},
+         familyi={B\bibinitperiod-R\bibinitperiod},
+         given={Pere},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BTCEVBRP1}
+    \strng{fullhash}{BTCEVBRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{75\bibrangedash 89}
+    \field{title}{Independent comparison of popular DPI tools for traffic
+  classification[J]}
+    \field{volume}{76}
+    \field{journaltitle}{Computer Networks}
+    \field{year}{2015}
+  \endentry
+
+  \entry{zhang2014proword}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhuo},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhibin},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LPP}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Patrick\bibnamedelima PC},
+         giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yunjie},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XG}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Gaogang},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ZZ+1}
+    \strng{fullhash}{ZZZZLPPLYXG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{INFOCOM, 2014 Proceedings IEEE}
+    \field{pages}{1393\bibrangedash 1401}
+    \field{title}{Proword: an unsupervised approach to protocol feature word
+  extraction[C]}
+    \field{year}{2014}
+  \endentry
+
+  \entry{yun2016semantics}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YX}{%
+         family={Yun},
+         familyi={Y\bibinitperiod},
+         given={Xiaochun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yipeng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yongzheng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Yu},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Press}%
+    }
+    \strng{namehash}{YX+1}
+    \strng{fullhash}{YXWYZYZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{583\bibrangedash 595}
+    \field{title}{A semantics-aware approach to the automated network protocol
+  identification[J]}
+    \field{volume}{24}
+    \field{journaltitle}{IEEE/ACM Transactions on Networking (TON)}
+    \field{year}{2016}
+  \endentry
+
+  \entry{ikeuchi2013gpu}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=IK}{%
+         family={Ikeuchi},
+         familyi={I\bibinitperiod},
+         given={Kazumasa},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wijekoon},
+         familyi={W\bibinitperiod},
+         given={Janaka},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=IS}{%
+         family={Ishida},
+         familyi={I\bibinitperiod},
+         given={Shinichi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Nishi},
+         familyi={N\bibinitperiod},
+         given={Hiroaki},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{IK+1}
+    \strng{fullhash}{IKWJISNH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Embedded Multicore Socs (MCSoC), 2013 IEEE 7th
+  International Symposium on}
+    \field{pages}{171\bibrangedash 176}
+    \field{title}{GPU-based multi-stream analyzer on application layer for
+  service-oriented router[C]}
+    \field{year}{2013}
+  \endentry
+
+  \entry{vasiliadis2014gaspp}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=VG}{%
+         family={Vasiliadis},
+         familyi={V\bibinitperiod},
+         given={Giorgos},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Koromilas},
+         familyi={K\bibinitperiod},
+         given={Lazaros},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Polychronakis},
+         familyi={P\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=IS}{%
+         family={Ioannidis},
+         familyi={I\bibinitperiod},
+         given={Sotiris},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VG+1}
+    \strng{fullhash}{VGKLPMIS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{USENIX Annual Technical Conference}
+    \field{pages}{321\bibrangedash 332}
+    \field{title}{GASPP: A GPU-Accelerated Stateful Packet Processing
+  Framework[C].}
+    \field{year}{2014}
+  \endentry
+
+  \entry{karagiannis2004transport}{inproceedings}{}
+    \true{moreauthor}
+    \name{author}{3}{}{%
+      {{hash=KT}{%
+         family={Karagiannis},
+         familyi={K\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Broido},
+         familyi={B\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Faloutsos},
+         familyi={F\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{KTBAFM+1}
+    \strng{fullhash}{KTBAFM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 4th ACM SIGCOMM conference on Internet
+  measurement}
+    \field{pages}{121\bibrangedash 134}
+    \field{title}{Transport layer identification of P2P traffic[C]}
+    \field{year}{2004}
+  \endentry
+
+  \entry{karagiannis2005blinc}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=KT}{%
+         family={Karagiannis},
+         familyi={K\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Papagiannaki},
+         familyi={P\bibinitperiod},
+         given={Konstantina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Faloutsos},
+         familyi={F\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{KTPKFM1}
+    \strng{fullhash}{KTPKFM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ACM SIGCOMM Computer Communication Review}
+    \field{number}{4}
+    \field{pages}{229\bibrangedash 240}
+    \field{title}{BLINC: multilevel traffic classification in the dark[C]}
+    \field{volume}{35}
+    \field{year}{2005}
+  \endentry
+
+  \entry{schatzmann2010digging}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=SD}{%
+         family={Schatzmann},
+         familyi={S\bibinitperiod},
+         given={Dominik},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={M{\"u}hlbauer},
+         familyi={M\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Spyropoulos},
+         familyi={S\bibinitperiod},
+         given={Thrasyvoulos},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DX}{%
+         family={Dimitropoulos},
+         familyi={D\bibinitperiod},
+         given={Xenofontas},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SD+1}
+    \strng{fullhash}{SDMWSTDX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 10th ACM SIGCOMM conference on
+  Internet measurement}
+    \field{pages}{322\bibrangedash 327}
+    \field{title}{Digging into HTTPS: flow-based classification of webmail
+  traffic[C]}
+    \field{year}{2010}
+  \endentry
+
+  \entry{moore2005internet}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=MAW}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zuev},
+         familyi={Z\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{MAWZD1}
+    \strng{fullhash}{MAWZD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ACM SIGMETRICS Performance Evaluation Review}
+    \field{number}{1}
+    \field{pages}{50\bibrangedash 60}
+    \field{title}{Internet traffic classification using bayesian analysis
+  techniques[C]}
+    \field{volume}{33}
+    \field{year}{2005}
+  \endentry
+
+  \entry{auld2007bayesian}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AT}{%
+         family={Auld},
+         familyi={A\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MAW}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=GSF}{%
+         family={Gull},
+         familyi={G\bibinitperiod},
+         given={Stephen\bibnamedelima F},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ATMAWGSF1}
+    \strng{fullhash}{ATMAWGSF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{223\bibrangedash 239}
+    \field{title}{Bayesian neural networks for internet traffic
+  classification[J]}
+    \field{volume}{18}
+    \field{journaltitle}{IEEE Transactions on neural networks}
+    \field{year}{2007}
+  \endentry
+
+  \entry{li2009efficient}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Canini},
+         familyi={C\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MAW}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bolla},
+         familyi={B\bibinitperiod},
+         given={Raffaele},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LW+1}
+    \strng{fullhash}{LWCMMAWBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{790\bibrangedash 809}
+    \field{title}{Efficient application identification and the temporal and
+  spatial stability of classification schema[J]}
+    \field{volume}{53}
+    \field{journaltitle}{Computer Networks}
+    \field{year}{2009}
+  \endentry
+
+  \entry{este2009support}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EA}{%
+         family={Este},
+         familyi={E\bibinitperiod},
+         given={Alice},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Gringoli},
+         familyi={G\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Salgarelli},
+         familyi={S\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{EAGFSL1}
+    \strng{fullhash}{EAGFSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{14}
+    \field{pages}{2476\bibrangedash 2490}
+    \field{title}{Support vector machines for TCP traffic classification[J]}
+    \field{volume}{53}
+    \field{journaltitle}{Computer Networks}
+    \field{year}{2009}
+  \endentry
+
+  \entry{bernaille2006traffic}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BL}{%
+         family={Bernaille},
+         familyi={B\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Teixeira},
+         familyi={T\bibinitperiod},
+         given={Renata},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Akodkenou},
+         familyi={A\bibinitperiod},
+         given={Ismael},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Soule},
+         familyi={S\bibinitperiod},
+         given={Augustin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Salamatian},
+         familyi={S\bibinitperiod},
+         given={Kave},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{BL+1}
+    \strng{fullhash}{BLTRAISASK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{23\bibrangedash 26}
+    \field{title}{Traffic classification on the fly[C]}
+    \field{volume}{36}
+    \field{journaltitle}{ACM SIGCOMM Computer Communication Review}
+    \field{year}{2006}
+  \endentry
+
+  \entry{ester1996density}{inproceedings}{}
+    \true{moreauthor}
+    \name{author}{4}{}{%
+      {{hash=EM}{%
+         family={Ester},
+         familyi={E\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KHP}{%
+         family={Kriegel},
+         familyi={K\bibinitperiod},
+         given={Hans-Peter},
+         giveni={H\bibinitperiod-P\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sander},
+         familyi={S\bibinitperiod},
+         given={J{\"o}rg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=XX}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Xiaowei},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EM+1}
+    \strng{fullhash}{EMKHPSJXX+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Kdd}
+    \field{number}{34}
+    \field{pages}{226\bibrangedash 231}
+    \field{title}{A density-based algorithm for discovering clusters in large
+  spatial databases with noise[C].}
+    \field{volume}{96}
+    \field{year}{1996}
+  \endentry
+
+  \entry{cheeseman1993autoclass}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=CP}{%
+         family={Cheeseman},
+         familyi={C\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kelly},
+         familyi={K\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Self},
+         familyi={S\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Stutz},
+         familyi={S\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Will},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Freeman},
+         familyi={F\bibinitperiod},
+         given={Don},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Morgan Kaufmann Publishers Inc.}%
+    }
+    \strng{namehash}{CP+1}
+    \strng{fullhash}{CPKJSMSJTWFD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Readings in knowledge acquisition and learning}
+    \field{pages}{431\bibrangedash 441}
+    \field{title}{Autoclass: A Bayesian classification system[C]}
+    \field{year}{1993}
+  \endentry
+
+  \entry{erman2006traffic}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=EJ}{%
+         family={Erman},
+         familyi={E\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Arlitt},
+         familyi={A\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mahanti},
+         familyi={M\bibinitperiod},
+         given={Anirban},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{EJAMMA1}
+    \strng{fullhash}{EJAMMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 2006 SIGCOMM workshop on Mining
+  network data}
+    \field{pages}{281\bibrangedash 286}
+    \field{title}{Traffic classification using clustering algorithms[C]}
+    \field{year}{2006}
+  \endentry
+
+  \entry{xu2011identifying}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=XQ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Qiang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Erman},
+         familyi={E\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gerber},
+         familyi={G\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MZ}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Zhuoqing},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pang},
+         familyi={P\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VS}{%
+         family={Venkataraman},
+         familyi={V\bibinitperiod},
+         given={Shobha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{XQ+1}
+    \strng{fullhash}{XQEJGAMZPJVS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 2011 ACM SIGCOMM conference on
+  Internet measurement conference}
+    \field{pages}{329\bibrangedash 344}
+    \field{title}{Identifying diverse usage behaviors of smartphone apps[C]}
+    \field{year}{2011}
+  \endentry
+
+  \entry{choi2012automated}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=CY}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Yeongrak},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CJY}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Jae\bibnamedelima Yoon},
+         giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Byungchul},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HJWK}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={James Won-Ki},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod-K\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CY+1}
+    \strng{fullhash}{CYCJYPBHJWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Network Operations and Management Symposium (NOMS), 2012
+  IEEE}
+    \field{pages}{1075\bibrangedash 1081}
+    \field{title}{Automated classifier generation for application-level mobile
+  traffic identification[C]}
+    \field{year}{2012}
+  \endentry
+
+  \entry{dai2013networkprofiler}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=DS}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Shuaifu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tongaonkar},
+         familyi={T\bibinitperiod},
+         given={Alok},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiaoyin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nucci},
+         familyi={N\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Dawn},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DS+1}
+    \strng{fullhash}{DSTAWXNASD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{INFOCOM, 2013 Proceedings IEEE}
+    \field{pages}{809\bibrangedash 817}
+    \field{title}{Networkprofiler: Towards automatic fingerprinting of android
+  apps[C]}
+    \field{year}{2013}
+  \endentry
+
+  \entry{xu2014flowr}{article}{}
+    \name{author}{7}{}{%
+      {{hash=XQ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Qiang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Andrews},
+         familyi={A\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liao},
+         familyi={L\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Miskovic},
+         familyi={M\bibinitperiod},
+         given={Stanislav},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MZM}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Z\bibnamedelima Morley},
+         giveni={Z\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Baldi},
+         familyi={B\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nucci},
+         familyi={N\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{XQ+1}
+    \strng{fullhash}{XQATLYMSMZMBMNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{569\bibrangedash 570}
+    \field{title}{FLOWR: a self-learning system for classifying
+  mobileapplication traffic[J]}
+    \field{volume}{42}
+    \field{journaltitle}{ACM SIGMETRICS Performance Evaluation Review}
+    \field{year}{2014}
+  \endentry
+
+  \entry{xu2015automatic}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=XQ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Qiang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liao},
+         familyi={L\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Miskovic},
+         familyi={M\bibinitperiod},
+         given={Stanislav},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MZM}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Z\bibnamedelima Morley},
+         giveni={Z\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Baldi},
+         familyi={B\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Nucci},
+         familyi={N\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Andrews},
+         familyi={A\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{XQ+1}
+    \strng{fullhash}{XQLYMSMZMBMNAAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Computer Communications (INFOCOM), 2015 IEEE Conference
+  on}
+    \field{pages}{1481\bibrangedash 1489}
+    \field{title}{Automatic generation of mobile app signatures from traffic
+  observations[C]}
+    \field{year}{2015}
+  \endentry
+
+  \entry{yao2015samples}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=YH}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Hongyi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ranjan},
+         familyi={R\bibinitperiod},
+         given={Gyan},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tongaonkar},
+         familyi={T\bibinitperiod},
+         given={Alok},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liao},
+         familyi={L\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MZM}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Zhuoqing\bibnamedelima Morley},
+         giveni={Z\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{YH+1}
+    \strng{fullhash}{YHRGTALYMZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 21st Annual International Conference
+  on Mobile Computing and Networking}
+    \field{pages}{439\bibrangedash 451}
+    \field{title}{Samples: Self adaptive mining of persistent lexical snippets
+  for classifying mobile application traffic[C]}
+    \field{year}{2015}
+  \endentry
+
+  \entry{ranjan2016approximate}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=RG}{%
+         family={Ranjan},
+         familyi={R\bibinitperiod},
+         given={Gyan},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tongaonkar},
+         familyi={T\bibinitperiod},
+         given={Alok},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Torres},
+         familyi={T\bibinitperiod},
+         given={Ruben},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{RGTATR1}
+    \strng{fullhash}{RGTATR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Computer Communications, IEEE INFOCOM 2016-The 35th
+  Annual IEEE International Conference on}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Approximate matching of persistent LExicon using
+  search-engines for classifying Mobile app traffic[C]}
+    \field{year}{2016}
+  \endentry
+
+  \entry{wang2016whatapp}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bickford},
+         familyi={B\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{WWBJ1}
+    \strng{fullhash}{WWBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Wireless and Mobile Computing, Networking and
+  Communications (WiMob), 2016 IEEE 12th International Conference on}
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{WhatApp: Modeling mobile applications by domain names[C]}
+    \field{year}{2016}
+  \endentry
+
+  \entry{alan2016can}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=AHF}{%
+         family={Alan},
+         familyi={A\bibinitperiod},
+         given={Hasan\bibnamedelima Faik},
+         giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kaur},
+         familyi={K\bibinitperiod},
+         given={Jasleen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{AHFKJ1}
+    \strng{fullhash}{AHFKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 9th ACM Conference on Security \&
+  Privacy in Wireless and Mobile Networks}
+    \field{pages}{61\bibrangedash 66}
+    \field{title}{Can Android Applications Be Identified Using Only TCP/IP
+  Headers of Their Launch Time Traffic?[C]}
+    \field{year}{2016}
+  \endentry
+
+  \entry{sun2002statistical}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=SQ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Qixiang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=SDR}{%
+         family={Simon},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WYM}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yi-Min},
+         giveni={Y\bibinitperiod-M\bibinitperiod},
+      }}%
+      {{hash=RW}{%
+         family={Russell},
+         familyi={R\bibinitperiod},
+         given={Wilf},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PVN}{%
+         family={Padmanabhan},
+         familyi={P\bibinitperiod},
+         given={Venkata\bibnamedelima N},
+         giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=QL}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Lili},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SQ+1}
+    \strng{fullhash}{SQSDRWYMRWPVNQL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Security and Privacy, 2002. Proceedings. 2002 IEEE
+  Symposium on}
+    \field{pages}{19\bibrangedash 30}
+    \field{title}{Statistical identification of encrypted web browsing
+  traffic[C]}
+    \field{year}{2002}
+  \endentry
+
+  \entry{liberatore2006inferring}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LM}{%
+         family={Liberatore},
+         familyi={L\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LBN}{%
+         family={Levine},
+         familyi={L\bibinitperiod},
+         given={Brian\bibnamedelima Neil},
+         giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{LMLBN1}
+    \strng{fullhash}{LMLBN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 13th ACM conference on Computer and
+  communications security}
+    \field{pages}{255\bibrangedash 263}
+    \field{title}{Inferring the source of encrypted HTTP connections[C]}
+    \field{year}{2006}
+  \endentry
+
+  \entry{herrmann2009website}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=HD}{%
+         family={Herrmann},
+         familyi={H\bibinitperiod},
+         given={Dominik},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Wendolsky},
+         familyi={W\bibinitperiod},
+         given={Rolf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Federrath},
+         familyi={F\bibinitperiod},
+         given={Hannes},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{HDWRFH1}
+    \strng{fullhash}{HDWRFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 2009 ACM workshop on Cloud computing
+  security}
+    \field{pages}{31\bibrangedash 42}
+    \field{title}{Website fingerprinting: attacking popular privacy enhancing
+  technologies with the multinomial na{\"\i}ve-bayes classifier[C]}
+    \field{year}{2009}
+  \endentry
+
+  \entry{mcculloch1943logical}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MWS}{%
+         family={McCulloch},
+         familyi={M\bibinitperiod},
+         given={Warren\bibnamedelima S},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PW}{%
+         family={Pitts},
+         familyi={P\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MWSPW1}
+    \strng{fullhash}{MWSPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{115\bibrangedash 133}
+    \field{title}{A logical calculus of the ideas immanent in nervous
+  activity[J]}
+    \field{volume}{5}
+    \field{journaltitle}{The bulletin of mathematical biophysics}
+    \field{year}{1943}
+  \endentry
+
+  \entry{hubel1962receptive}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HDH}{%
+         family={Hubel},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima H},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WTN}{%
+         family={Wiesel},
+         familyi={W\bibinitperiod},
+         given={Torsten\bibnamedelima N},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{HDHWTN1}
+    \strng{fullhash}{HDHWTN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{106\bibrangedash 154}
+    \field{title}{Receptive fields, binocular interaction and functional
+  architecture in the cat's visual cortex[J]}
+    \field{volume}{160}
+    \field{journaltitle}{The Journal of physiology}
+    \field{year}{1962}
+  \endentry
+
+  \entry{fukushima1982neocognitron}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=FK}{%
+         family={Fukushima},
+         familyi={F\bibinitperiod},
+         given={Kunihiko},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Miyake},
+         familyi={M\bibinitperiod},
+         given={Sei},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{FKMS1}
+    \strng{fullhash}{FKMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Competition and cooperation in neural nets}
+    \field{pages}{267\bibrangedash 285}
+    \field{title}{Neocognitron: A self-organizing neural network model for a
+  mechanism of visual pattern recognition[M]}
+    \field{year}{1982}
+  \endentry
+
+  \entry{lecun1998gradient}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LY}{%
+         family={LeCun},
+         familyi={L\bibinitperiod},
+         given={Yann},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bottou},
+         familyi={B\bibinitperiod},
+         given={L{\'e}on},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Haffner},
+         familyi={H\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYBLBYHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{2278\bibrangedash 2324}
+    \field{title}{Gradient-based learning applied to document recognition[J]}
+    \field{volume}{86}
+    \field{journaltitle}{Proceedings of the IEEE}
+    \field{year}{1998}
+  \endentry
+
+  \entry{krizhevsky2012imagenet}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={Krizhevsky},
+         familyi={K\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HGE}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey\bibnamedelima E},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KASIHGE1}
+    \strng{fullhash}{KASIHGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Advances in neural information processing systems}
+    \field{pages}{1097\bibrangedash 1105}
+    \field{title}{Imagenet classification with deep convolutional neural
+  networks[C]}
+    \field{year}{2012}
+  \endentry
+
+  \entry{abdel2012applying}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=AHO}{%
+         family={Abdel-Hamid},
+         familyi={A\bibinitperiod-H\bibinitperiod},
+         given={Ossama},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MAr}{%
+         family={Mohamed},
+         familyi={M\bibinitperiod},
+         given={Abdel-rahman},
+         giveni={A\bibinitperiod-r\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Penn},
+         familyi={P\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AHO+1}
+    \strng{fullhash}{AHOMArJHPG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Acoustics, Speech and Signal Processing (ICASSP), 2012
+  IEEE International Conference on}
+    \field{pages}{4277\bibrangedash 4280}
+    \field{title}{Applying convolutional neural networks concepts to hybrid
+  NN-HMM model for speech recognition[C]}
+    \field{year}{2012}
+  \endentry
+
+  \entry{abdel2014convolutional}{article}{}
+    \name{author}{6}{}{%
+      {{hash=AHO}{%
+         family={Abdel-Hamid},
+         familyi={A\bibinitperiod-H\bibinitperiod},
+         given={Ossama},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MAr}{%
+         family={Mohamed},
+         familyi={M\bibinitperiod},
+         given={Abdel-rahman},
+         giveni={A\bibinitperiod-r\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Deng},
+         familyi={D\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Penn},
+         familyi={P\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=YD}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Dong},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AHO+1}
+    \strng{fullhash}{AHOMArJHDLPGYD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{10}
+    \field{pages}{1533\bibrangedash 1545}
+    \field{title}{Convolutional neural networks for speech recognition[J]}
+    \field{volume}{22}
+    \field{journaltitle}{IEEE/ACM Transactions on audio, speech, and language
+  processing}
+    \field{year}{2014}
+  \endentry
+
+  \entry{collobert2011natural}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CR}{%
+         family={Collobert},
+         familyi={C\bibinitperiod},
+         given={Ronan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Weston},
+         familyi={W\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bottou},
+         familyi={B\bibinitperiod},
+         given={L{\'e}on},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Karlen},
+         familyi={K\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kavukcuoglu},
+         familyi={K\bibinitperiod},
+         given={Koray},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kuksa},
+         familyi={K\bibinitperiod},
+         given={Pavel},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CR+1}
+    \strng{fullhash}{CRWJBLKMKKKP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{Aug}
+    \field{pages}{2493\bibrangedash 2537}
+    \field{title}{Natural language processing (almost) from scratch[J]}
+    \field{volume}{12}
+    \field{journaltitle}{Journal of Machine Learning Research}
+    \field{year}{2011}
+  \endentry
+
+  \entry{zhang2015character}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Junbo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={LeCun},
+         familyi={L\bibinitperiod},
+         given={Yann},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZXZJLY1}
+    \strng{fullhash}{ZXZJLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Advances in neural information processing systems}
+    \field{pages}{649\bibrangedash 657}
+    \field{title}{Character-level convolutional networks for text
+  classification[C]}
+    \field{year}{2015}
+  \endentry
+
+  \entry{rtppt}{customf}{}
+    \field{addendum}{Real-Time Transport Protocol (RTP) Parameters, \\
+  https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml.}
+  \endentry
+
+  \entry{6}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LY}{%
+         family={Lecun},
+         familyi={L\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bottou},
+         familyi={B\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Haffner},
+         familyi={H\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{backpropagation;convolution;multilayer perceptrons;optical character
+  recognition;2D shape variability;GTN;back-propagation;cheque reading;complex
+  decision surface synthesis;convolutional neural network character
+  recognizers}
+    \strng{namehash}{LY+2}
+    \strng{fullhash}{LYBLBYHP2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{2278\bibrangedash 2324}
+    \field{title}{Gradient-based learning applied to document recognition}
+    \field{volume}{86}
+    \field{journaltitle}{Proceedings of the IEEE}
+    \field{year}{1998}
+  \endentry
+
+  \entry{7}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RDE}{%
+         family={Rumelhart},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima E},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HGE}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey\bibnamedelima E},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WRJ}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Ronald\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{CiteSeerX;citations;Learning representations by backpropagating
+  errors. Nature 323;R J}
+    \strng{namehash}{RDEHGEWRJ1}
+    \strng{fullhash}{RDEHGEWRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6088}
+    \field{pages}{399\bibrangedash 421}
+    \field{title}{Learning representations by back-propagating errors.}
+    \field{volume}{323}
+    \field{journaltitle}{Readings in Cognitive Science}
+    \field{year}{1988}
+  \endentry
+
+  \entry{8}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={Krizhevsky},
+         familyi={K\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HGE}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey\bibnamedelima E.},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KASIHGE2}
+    \strng{fullhash}{KASIHGE2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Conference on Neural Information Processing
+  Systems}
+    \field{pages}{1097\bibrangedash 1105}
+    \field{title}{ImageNet classification with deep convolutional neural
+  networks}
+    \field{year}{2012}
+  \endentry
+
+  \entry{9}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SK}{%
+         family={Simonyan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zisserman},
+         familyi={Z\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \strng{namehash}{SKZA1}
+    \strng{fullhash}{SKZA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Very Deep Convolutional Networks for Large-Scale Image
+  Recognition}
+    \field{journaltitle}{Computer Science}
+    \field{year}{2014}
+  \endentry
+
+  \entry{10}{inproceedings}{}
+    \name{author}{9}{}{%
+      {{hash=SC}{%
+         family={Szegedy},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Yangqing},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sermanet},
+         familyi={S\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Reed},
+         familyi={R\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Anguelov},
+         familyi={A\bibinitperiod},
+         given={Dragomir},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Erhan},
+         familyi={E\bibinitperiod},
+         given={Dumitru},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vanhoucke},
+         familyi={V\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rabinovich},
+         familyi={R\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{ieee computer society}
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCLWJYSPRSADEDVVRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{IEEE Conference on Computer Vision and Pattern
+  Recognition}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Going deeper with convolutions}
+    \field{year}{2015}
+  \endentry
+
+  \entry{11}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HK}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Kaiming},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiangyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Shaoqing},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{ieee computer society}
+    \strng{namehash}{HK+1}
+    \strng{fullhash}{HKZXRSSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Computer Vision and Pattern Recognition}
+    \field{pages}{770\bibrangedash 778}
+    \field{title}{Deep Residual Learning for Image Recognition}
+    \field{year}{2016}
+  \endentry
+
+  \entry{clnn}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=STN}{%
+         family={Sainath},
+         familyi={S\bibinitperiod},
+         given={Tara\bibnamedelima N},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Senior},
+         familyi={S\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sak},
+         familyi={S\bibinitperiod},
+         given={Ha{\c{s}}im},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{STN+1}
+    \strng{fullhash}{STNVOSASH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Acoustics, Speech and Signal Processing (ICASSP), 2015
+  IEEE International Conference on}
+    \field{pages}{4580\bibrangedash 4584}
+    \field{title}{Convolutional, long short-term memory, fully connected deep
+  neural networks}
+    \field{year}{2015}
+  \endentry
+
+  \entry{monkey}{customf}{}
+    \field{addendum}{Android Tool Monkey[EB/OL]. \\
+  https://developer.android.com/studio/test/monkey.html.}
+  \endentry
+
+  \entry{monkeyrunner}{customf}{}
+    \field{addendum}{Android Tool Monkeyrunner[EB/OL]. \\
+  https://developer.android.com/studio/test/monkeyrunner/index.html.}
+  \endentry
+
+  \entry{statistics3}{customf}{}
+    \field{addendum}{Statistical Report on China's Internet Development[EB/OL].
+  \\ http://www.cnnic.net.cn/hlwfzyj/hlwxzbg/hlwtjbg/.}
+  \endentry
+\endsortlist
+\endinput

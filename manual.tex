@@ -299,14 +299,14 @@ RTP/RTCP是UDP的上层协议，其报头可以作为识别VoIP流量的基本�
 
 各种解编码器比特率和打包周期的不同，直接造成了VoIP流量所占带宽和包到达间隔的不同，同时也间接造成了数据包大小的不同。
 
-\subsubsection{3.1.2.1\ \ 数据包大小分布}
+\subsubsection{数据包大小分布}
 数据包大小分布（Distribution of Packet Size，PSD）是进行VoIP流量识别最常用的统计特征。相关工作中介绍的研究方法\supercite{22}直接采用PSD作为VoIP流量识别的标准，研究方法\supercite{4}提到的数据包长度的熵变化也是数据包大小分布的表现形式。
 
 
 
 %图，按照\supercite{4}中的方式画
 
-\subsubsection{3.1.2.2\ \ 包到达间隔分布}
+\subsubsection{包到达间隔分布}
 
 
 
@@ -319,7 +319,7 @@ RTP/RTCP是UDP的上层协议，其报头可以作为识别VoIP流量的基本�
 
 \subsection{VoIP子流数据集构造方法}
 本文采用有监督的学习方法训练数据集获取特征集，构造和标记数据集对于很多研究人员来说是一项繁琐的工作。本节我们将介绍构造适用于实时识别的带标签的数据集的方法。
-\subsubsection{3.2.2.1\ \ 数据集构造}
+\subsubsection{数据集构造}
 \label{sec:construct}
 数据集构造过程由收集原始数据、标记数据和拆分子流三个步骤构成。
 
@@ -333,21 +333,21 @@ RTP/RTCP是UDP的上层协议，其报头可以作为识别VoIP流量的基本�
 \end{center}
 \end{figure}
 
-\subsubsection{3.2.2.2\ \ 数据预处理}
+\subsubsection{数据预处理}
 数据预处理的过程是将数据集处理成可供CLNN模型学习的训练数据的过程。本文提出的方法致力于识别RTP/RTCP数据流所携带的特征进而识别出VoIP流量。由于网络地址转换（Network Address Translation，NAT）技术的发展，对于我们来说，IP报头所携带的信息是没有识别价值的。UDP报头所携带的端口号信息对于我们识别RTP/RTCP数据包有一定的价值，因此我们保留UDP端口号信息。
 
 数据预处理的过程主要包括五个步骤：1）移除网络层和传输层头部；2）为数据包添加传输层端口号；3）添加2个时间戳，一个为距离首个数据包的时间差，另一个为距离上个收据包的时间差；4）按照ASCII码将子流$^k$转换为矩阵的格式；5）对所得的矩阵进行归一化操作。根据我们的经验，RTP/RTCP数据包的长度普遍在50-210之间，因此我们将矩阵的列设为256。矩阵的行为k，即一个子流$^k$所包含的数据包个数。
 
 \subsection{CLNN模型研究}
 基于以上特征分析和构建的子流数据集，本节将介绍本文所使用的CLNN模型以及有监督学习的过程。
-\subsubsection{3.2.3.1\ \ CLNN模型结构}
+\subsubsection{CLNN模型结构}
 随着人工智能技术的发展，出现了越来越多优秀的深度学习模型。Lecun, Y.等人\supercite{6}提出的模型是最古老的CNN模型；LeNet模型作为CNN模型的发展被Rumelhart, David E\supercite{7}等人提出；Krizhevsky, Alex\supercite{8}等人提出的AlexNet以作者的名字命名，它在2012年举办的ImageNet竞赛中获得了冠军；Simonyan, Karen\supercite{9}等人随后提出了VGG模型；Szegedy, Christian\supercite{10}等人提出的GoogleNet模型在网络设计上做出了大胆的尝试，也获得了更好的性能；He, Kaiming\supercite{11}等人设计了一个具有152层的被称作ResNet的网络模型。
 
 我们研究了以上神经网络模型，同时吸收CLDNN模型\supercite{clnn}的设计思想设计了本文所使用的8层CLNN模型。正如大多数的深度学习模型，本文所使用的CLNN模型的大多数想法来自于AlexNet。唯一的不同就是我们将LSTM模型加入到卷积神经网络模型中以为语音流提供更强的在时序方面的建模能力。CLNN模型由2层LSTM，3层卷积层和3层全连接层构成。
 
 在我们的实验中，输入由大小为k$\times$l的矩阵组成，k代表子流$^k$中包含的数据包个数，l代表矩阵的列数，本文所采取的默认值为256。我们将CNN层的过滤核大小调整为5$\times$5，调整每层的填充类型为SAME。结构中前7层的DropOut值都设置为0.5。3层全连接层的前两层使用ReLU作为激活函数，最后一层使用Softmax作为激活函数。全部LSTM层使用Tanh作为其激活函数，全部卷积层使用ReLU作为激活函数。在我们的CLNN模型中，我们去掉了多余的池化层，仅仅在第二层和第五层加入了窗口大小为2$\times$2的池化层。
 
-\subsubsection{3.2.3.2\ \ CLNN网络模型的学习过程}
+\subsubsection{CLNN网络模型的学习过程}
 对于CLNN模型的最后一层全连接层，我们使用Softmax作为其激活函数。在我们的实验中，一共有11中类型的流量，对于未知的VoIP流，我们通过计算其先验概率确定其应用类型。Softmax函数表示如下：
 \begin{equation}
 \hat P({V_i}) = softmax({V_i}) = \frac{{{e^{{V_i}}}}}{{\sum\limits_{j = 1}^n {{e^{{V_j}}}} }}
@@ -373,7 +373,7 @@ CCE({V_i}) =  - \sum\limits_{i = 1}^n {P({V_i}) \times \log (\hat P({V_i}))}
 \end{equation}
 其中，${\rho }$表示衰减因子，i表示当前正在进行第i轮计算。
 
-\subsubsection{3.2.3.3\ \ 特征集}
+\subsubsection{特征集}
 获得更加精确的特征集用于识别VoIP流量是线下训练的目标。在我们的实验中，通过CLNN模型所提取的针对语音识别的特征集是不可读的。该特征集将会被用于使用SVM，random forest，decision tree和naive bayes等机器学习方法训练分类器。经过4中机器学习方法所训练的分类器均获得了较高的准确率，并且它们将会被用于我们的在线识别阶段。
 
 \section{在线实时识别方法研究}

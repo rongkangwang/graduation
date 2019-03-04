@@ -561,8 +561,7 @@
     \field{labeltitlesource}{title}
     \field{number}{4}
     \field{pages}{115\bibrangedash 133}
-    \field{title}{A logical calculus of the ideas immanent in nervous
-  activity[J]}
+    \field{title}{A logical calculus of the ideas immanent in nervous activity}
     \field{volume}{5}
     \field{journaltitle}{The bulletin of mathematical biophysics}
     \field{year}{1943}
@@ -593,7 +592,7 @@
     \field{booktitle}{Competition and cooperation in neural nets}
     \field{pages}{267\bibrangedash 285}
     \field{title}{Neocognitron: A self-organizing neural network model for a
-  mechanism of visual pattern recognition[M]}
+  mechanism of visual pattern recognition}
     \field{year}{1982}
   \endentry
 
@@ -632,6 +631,62 @@
     \field{year}{1988}
   \endentry
 
+  \entry{lecun1990handwritten}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=LY}{%
+         family={LeCun},
+         familyi={L\bibinitperiod},
+         given={Yann},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BBE}{%
+         family={Boser},
+         familyi={B\bibinitperiod},
+         given={Bernhard\bibnamedelima E},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=DJS}{%
+         family={Denker},
+         familyi={D\bibinitperiod},
+         given={John\bibnamedelima S},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Henderson},
+         familyi={H\bibinitperiod},
+         given={Donnie},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HRE}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Richard\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HWE}{%
+         family={Hubbard},
+         familyi={H\bibinitperiod},
+         given={Wayne\bibnamedelima E},
+         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=JLD}{%
+         family={Jackel},
+         familyi={J\bibinitperiod},
+         given={Lawrence\bibnamedelima D},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYBBEDJSHDHREHWEJLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Advances in neural information processing systems}
+    \field{pages}{396\bibrangedash 404}
+    \field{title}{Handwritten digit recognition with a back-propagation
+  network}
+    \field{year}{1990}
+  \endentry
+
   \entry{6}{article}{}
     \name{author}{4}{}{%
       {{hash=LY}{%
@@ -663,7 +718,7 @@
   recognition;2D shape variability;GTN;back-propagation;cheque reading;complex
   decision surface synthesis;convolutional neural network character
   recognizers}
-    \strng{namehash}{LY+1}
+    \strng{namehash}{LY+2}
     \strng{fullhash}{LYBLBYHP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}

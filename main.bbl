@@ -901,6 +901,24 @@
   https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml.}
   \endentry
 
+  \entry{he2007analysing}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=HQ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Qinxia},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HQ1}
+    \strng{fullhash}{HQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Analysing the characteristics of VoIP traffic}
+    \field{type}{phdthesis}
+    \field{year}{2007}
+  \endentry
+
   \entry{clnn}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=STN}{%

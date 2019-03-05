@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  4 MAR 2019 19:27
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  5 MAR 2019 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1784,12 +1784,17 @@ File: figures/pooling.eps Graphic file (type eps)
 第\CJKnumber {3}章 3.
 [18
 
-] [19] [20]
+] [19]
+File: figures/psd.eps Graphic file (type eps)
+ <figures/psd.eps> [20]
+File: figures/itd.eps Graphic file (type eps)
+ <figures/itd.eps> [21]
 File: figures/dataset.eps Graphic file (type eps)
- <figures/dataset.eps> [21]
+ <figures/dataset.eps>
+[22]
 File: figures/cnnlstm.eps Graphic file (type eps)
- <figures/cnnlstm.eps> [22]
-Overfull \hbox (8.52159pt too wide) in paragraph at lines 345--347
+ <figures/cnnlstm.eps> [23] [24]
+Overfull \hbox (8.52159pt too wide) in paragraph at lines 372--374
 \TU/FandolSong-Regular(0)/m/n/12 其 中 $\OT1/ztmcm/m/n/12 ([]\OML/ztmcm/m/it/12 ;
  []; [][]; []; []\OT1/ztmcm/m/n/12 )$ \TU/FandolSong-Regular(0)/m/n/12 代 表 第 八 
 层 的 输 入 矩 阵，| $\OT1/ztmcm/m/n/12 ([]([])\OML/ztmcm/m/it/12 ; []\OT1/ztmcm/m/n/1
@@ -1797,98 +1802,98 @@ Overfull \hbox (8.52159pt too wide) in paragraph at lines 345--347
  []\OT1/ztmcm/m/n/12 ([]))$
  []
 
-[23]
+[25]
 File: figures/flow.eps Graphic file (type eps)
- <figures/flow.eps> [24]
+ <figures/flow.eps> [26]
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 446.
+(Font)              using `TU/ptm/m/n' instead on input line 473.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 446.
+(Font)              using `TU/ptm/bx/n' instead on input line 473.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26]
+[27] [28]
 第\CJKnumber {4}章 4.
 File: figures/architecture.eps Graphic file (type eps)
-<figures/architecture.eps> [27
+<figures/architecture.eps> [29
 
 ]
 File: figures/online_3_component.eps Graphic file (type eps)
- <figures/online_3_component.eps> [28]
+ <figures/online_3_component.eps> [30]
 File: figures/datasetprocessing.eps Graphic file (type eps)
 
-<figures/datasetprocessing.eps> [29]
+<figures/datasetprocessing.eps> [31]
 File: figures/skype1.png Graphic file (type QTm)
- <use  "figures/skype1.png" > [30]
+ <use  "figures/skype1.png" > [32]
 Missing character: There is no （ in font zptmcm7t!
 Missing character: There is no ） in font zptmcm7t!
- [31]
+ [33]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [32]
-[33] [34]
+) [34]
+[35] [36]
 File: figures/kafka.eps Graphic file (type eps)
- <figures/kafka.eps> [35]
+ <figures/kafka.eps> [37]
 File: figures/storm.eps Graphic file (type eps)
  <figures/storm.eps>
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (23.79424pt too wide) in paragraph at lines 745--746
+Overfull \hbox (23.79424pt too wide) in paragraph at lines 772--773
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (30.99431pt too wide) in paragraph at lines 746--747
+Overfull \hbox (30.99431pt too wide) in paragraph at lines 773--774
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[36] [37]
+[38] [39]
 第\CJKnumber {5}章 5.
-[38
+[40
 
-] [39] [40]
-Invalid UTF-8 byte or sequence at line 898 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 898 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 898 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 898 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 898 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 898 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 898 replaced by U+FFFD.
+] [41] [42]
+Invalid UTF-8 byte or sequence at line 925 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 925 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 925 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 925 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 925 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 925 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 925 replaced by U+FFFD.
 File: figures/fprtpr.eps Graphic file (type eps)
  <figures/fprtpr.eps>
 
-LaTeX Warning: Float too large for page by 14.17545pt on input line 901.
+LaTeX Warning: Float too large for page by 14.17545pt on input line 928.
 
-[41]
-Invalid UTF-8 byte or sequence at line 907 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 907 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 907 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 907 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 907 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 907 replaced by U+FFFD.
+[43]
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
 File: figures/tf.eps Graphic file (type eps)
  <figures/tf.eps>
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 917 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 944 replaced by U+FFFD.
 File: figures/ml.eps Graphic file (type eps)
- <figures/ml.eps> [42] [43] [44] [45]
+ <figures/ml.eps> [44] [45] [46] [47]
 第\CJKnumber {6}章 6.
-[46
+[48
 
-]) [47]
+]) [49]
 \openout2 = `references.aux'.
 
  (./references.tex
@@ -1921,34 +1926,34 @@ Overfull \hbox (23.45377pt too wide) in paragraph at lines 4--4
 razzles-Indian-
  []
 
-[48
+[50
 
 
 
-]) [49] (./main.lof)
+]) [51] (./main.lof [52
+
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [50
-
-
-] [51] (./main.lot)
+ [53] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [52
+ [54
 
 ]
 \openout2 = `acknowledgements.aux'.
 
  (./acknowledgements.tex)
-[53
+[55
 
 
 ]
 \openout2 = `resume.aux'.
 
- (./resume.tex) [54
+ (./resume.tex) [56
 
 
 
@@ -1963,6 +1968,9 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 190.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1973,12 +1981,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34793 strings out of 493005
- 650315 string characters out of 6134596
- 960990 words of memory out of 5000000
- 38395 multiletter control sequences out of 15000+600000
+ 34799 strings out of 493005
+ 650377 string characters out of 6134596
+ 961112 words of memory out of 5000000
+ 38399 multiletter control sequences out of 15000+600000
  42449 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,19n,59p,10440b,12368s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (61 pages).
+Output written on main.pdf (63 pages).

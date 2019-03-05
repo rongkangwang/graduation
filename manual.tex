@@ -284,16 +284,43 @@ RTP/RTCP是UDP的上层协议，其报头可以作为识别VoIP流量的基本�
 各种解编码器比特率和打包周期的不同，直接造成了VoIP流量所占带宽和包到达间隔的不同，同时也间接造成了数据包大小的不同。
 
 \subsubsection{数据包大小分布}
-数据包大小分布（Distribution of Packet Size，PSD）是进行VoIP流量识别最常用的统计特征。相关工作中介绍的研究方法\supercite{22}直接采用PSD作为VoIP流量识别的标准，研究方法\supercite{4}提到的数据包长度的熵变化也是数据包大小分布的表现形式。
+数据包大小分布（Distribution of Packet Size，PSD）是进行VoIP流量识别最常用的统计特征。相关工作中介绍的基于PSD进行识别的研究方法直接采用PSD作为VoIP流量识别的标准\supercite{22}，基于解编码器类型和熵变化的研究方法提到的数据包长度的熵变化也是数据包大小分布的表现形式\supercite{4}。
 
+%skype DynamicRTP-Type-103
+%jumblo DynamicRTP-Type-118
+%xlite ITU-T G.711 PCMA
+%zoiper GSM 06.10
+%kc ITU-T G.729 and Comfort noise
+%bria ITU-T G.711
 
+%skype12 ITU-T G.722 与 skype013对比
+%alitong ITU-T G.711 PCMU 与bria对比
+
+%eyebeam1 ITU-T G.711 PCMU 与bria相同
+%expresstalk1  ITU-T G.711 PCMU 与bria相同
+图片\ref{fig:psd}中仅展示9种VoIP流量的数据包大小分布情况，其分布情况与VoIP应用所采用的解编码器有直接关系，除此之外，还与VoIP应用所选择的打包周期、解编码器的比特率以及对语音质量的不同处理有关。如图中第一行所示，Skype应用在不同的语音传输环境中会使用不同的解编码器类型，图中所示的三种解编码器在数据包大小分布上具有明显的差异。第二行展示了在采用相同解编码器情况下三种不同的VoIP应用产生的语音数据包的大小分布情况。ALT、Eyebeam和ExpressTalk三种VoIP应用都采用ITU-T G.711 PCMU解编码器，而ALT的数据包大小分布情况与其他两种有很明显的差异，Eyebeam和ExpressTalk的数据包大小分布情况很相似，可能我们不能通过数据包大小分布情况对这两种VoIP应用的流量进行识别，只能依托VoIP应用的其他特征。第三行的三种VoIP应用采用的解编码器分别为GSM、ITU-T G.729和DynamicRTP-Type-118，这三种VoIP应用所产生的流量的数据包大小分布情况与前面两行的VoIP应用同样有很大的差异。综上多种情况，VoIP应用对与不同解编码器的选择、不同比特率的选择和语音质量的保证方式都会对数据包大小分布情况产生作用，可以用作VoIP流量的识别特征。但是，同样也有很多VoIP应用在选择解编码器和比特率上作出同样的选择，所以仍需要更多的特征进行识别。
+
+\begin{figure}[thb]
+\begin{center}
+\includegraphics[width=1\textwidth]{figures/psd.eps}
+\caption{数据包大小分布}\label{fig:psd}
+\end{center}
+\end{figure}
 
 %图，按照\supercite{4}中的方式画
 
 \subsubsection{包到达间隔分布}
+现存的研究中很少有直接使用包到达间隔分布作为VoIP识别的特征，在一篇使用机器学习进行VoIP流分类的研究中\supercite{5}，作者使用VoIP语音流的包到达间隔的标准差作为一项特征进行识别。另外，一篇进行VoIP流量统计的文章中显示，在VoIP信令控制流量和媒体传输流量中70\%的包到达间隔少于20ms，意味着VoIP应用对语音的打包周期普遍少于20ms。
+
+图中\ref{fig:itd}展示了9种VoIP应用产生的流量的包到达间隔分布。很明显的我们可以看到9种VoIP应用产生的流量的包达到间隔都有差异。具体的特征我们可以依靠深度学习方法进行提取。值得一提的是，使用数据包大小分布不能进行区分的Eyebeam和ExpressTalk两种VoIP应用的流量，此时可以通过包到达间隔分布作出区分。
 
 
-
+\begin{figure}[thb]
+\begin{center}
+\includegraphics[width=1\textwidth]{figures/itd.eps}
+\caption{包到达间隔分布}\label{fig:itd}
+\end{center}
+\end{figure}
 
 \section{基于CLNN模型的特征提取研究}
 \subsection{实时识别基础}

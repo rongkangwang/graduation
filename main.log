@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  7 MAR 2019 00:03
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  8 MAR 2019 23:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1778,23 +1778,29 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
  [13] [14]
 File: figures/cnn.eps Graphic file (type eps)
 
-<figures/cnn.eps>
+<figures/cnn.eps> [15]
 File: figures/pooling.eps Graphic file (type eps)
- <figures/pooling.eps> [15] [16] [17]
-第\CJKnumber {3}章 3.
-[18
+ <figures/pooling.eps>
 
-] [19]
+LaTeX Warning: Reference `rnn:cnn' on page 16 undefined on input line 233.
+
+[16]
+File: figures/rnn.eps Graphic file (type eps)
+ <figures/rnn.eps> [17] [18]
+第\CJKnumber {3}章 3.
+[19
+
+] [20]
 File: figures/psd.eps Graphic file (type eps)
- <figures/psd.eps> [20]
+ <figures/psd.eps> [21]
 File: figures/itd.eps Graphic file (type eps)
- <figures/itd.eps> [21]
+ <figures/itd.eps> [22]
 File: figures/dataset.eps Graphic file (type eps)
  <figures/dataset.eps>
-[22]
+[23]
 File: figures/cnnlstm.eps Graphic file (type eps)
- <figures/cnnlstm.eps> [23] [24]
-Overfull \hbox (8.52159pt too wide) in paragraph at lines 373--375
+ <figures/cnnlstm.eps> [24] [25]
+Overfull \hbox (8.52159pt too wide) in paragraph at lines 380--382
 \TU/FandolSong-Regular(0)/m/n/12 其 中 $\OT1/ztmcm/m/n/12 ([]\OML/ztmcm/m/it/12 ;
  []; [][]; []; []\OT1/ztmcm/m/n/12 )$ \TU/FandolSong-Regular(0)/m/n/12 代 表 第 八 
 层 的 输 入 矩 阵，| $\OT1/ztmcm/m/n/12 ([]([])\OML/ztmcm/m/it/12 ; []\OT1/ztmcm/m/n/1
@@ -1802,106 +1808,106 @@ Overfull \hbox (8.52159pt too wide) in paragraph at lines 373--375
  []\OT1/ztmcm/m/n/12 ([]))$
  []
 
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 400 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
 File: figures/feature.eps Graphic file (type eps)
-<figures/feature.eps> [25]
+<figures/feature.eps> [26]
 File: figures/flow.eps Graphic file (type eps)
- <figures/flow.eps> [26]
+ <figures/flow.eps> [27]
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 480.
+(Font)              using `TU/ptm/m/n' instead on input line 487.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 480.
+(Font)              using `TU/ptm/bx/n' instead on input line 487.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28] [29]
+[28] [29] [30]
 第\CJKnumber {4}章 4.
 File: figures/architecture.eps Graphic file (type eps)
-<figures/architecture.eps> [30
+<figures/architecture.eps> [31
 
 ]
 File: figures/online_3_component.eps Graphic file (type eps)
- <figures/online_3_component.eps> [31]
+ <figures/online_3_component.eps> [32]
 File: figures/datasetprocessing.eps Graphic file (type eps)
 
-<figures/datasetprocessing.eps> [32]
+<figures/datasetprocessing.eps> [33]
 File: figures/skype1.png Graphic file (type QTm)
- <use  "figures/skype1.png" > [33]
+ <use  "figures/skype1.png" > [34]
 Missing character: There is no （ in font zptmcm7t!
 Missing character: There is no ） in font zptmcm7t!
- [34]
+ [35]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [35]
-[36] [37]
+) [36]
+[37] [38]
 File: figures/kafka.eps Graphic file (type eps)
- <figures/kafka.eps> [38]
+ <figures/kafka.eps> [39]
 File: figures/storm.eps Graphic file (type eps)
  <figures/storm.eps>
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (23.79424pt too wide) in paragraph at lines 779--780
+Overfull \hbox (23.79424pt too wide) in paragraph at lines 786--787
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (30.99431pt too wide) in paragraph at lines 780--781
+Overfull \hbox (30.99431pt too wide) in paragraph at lines 787--788
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[39] [40]
+[40] [41]
 第\CJKnumber {5}章 5.
-[41
+[42
 
-] [42] [43] [44]
-Invalid UTF-8 byte or sequence at line 932 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 932 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 932 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 932 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 932 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 932 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 932 replaced by U+FFFD.
+] [43] [44] [45]
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
 File: figures/fprtpr.eps Graphic file (type eps)
  <figures/fprtpr.eps>
 
-LaTeX Warning: Float too large for page by 14.17545pt on input line 935.
+LaTeX Warning: Float too large for page by 14.17545pt on input line 943.
 
-Invalid UTF-8 byte or sequence at line 941 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 941 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 941 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 941 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 941 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 941 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 949 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 949 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 949 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 949 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 949 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 949 replaced by U+FFFD.
 File: figures/tf.eps Graphic file (type eps)
 <figures/tf.eps>
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 951 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 959 replaced by U+FFFD.
 File: figures/ml.eps Graphic file (type eps)
- <figures/ml.eps> [45] [46] [47] [48]
+ <figures/ml.eps> [46] [47] [48] [49]
 第\CJKnumber {6}章 6.
-[49
+[50
 
-]) [50]
+]) [51]
 \openout2 = `references.aux'.
 
  (./references.tex
@@ -1934,34 +1940,34 @@ Overfull \hbox (23.45377pt too wide) in paragraph at lines 4--4
 razzles-Indian-
  []
 
-[51
+[52
 
 
 
-]) [52] (./main.lof [53
+]) [53] (./main.lof [54
 
 
 ])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [54] (./main.lot)
+ [55] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [55
+ [56
 
 ]
 \openout2 = `acknowledgements.aux'.
 
  (./acknowledgements.tex)
-[56
+[57
 
 
 ]
 \openout2 = `resume.aux'.
 
- (./resume.tex) [57
+ (./resume.tex) [58
 
 
 
@@ -1976,6 +1982,9 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 190.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1986,12 +1995,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34805 strings out of 493005
- 650542 string characters out of 6134596
- 961527 words of memory out of 5000000
- 38404 multiletter control sequences out of 15000+600000
+ 34809 strings out of 493005
+ 650582 string characters out of 6134596
+ 961629 words of memory out of 5000000
+ 38407 multiletter control sequences out of 15000+600000
  42449 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,19n,59p,10440b,12368s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,59p,10440b,12369s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (64 pages).
+Output written on main.pdf (65 pages).

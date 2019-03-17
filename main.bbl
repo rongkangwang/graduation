@@ -112,6 +112,49 @@
     \field{year}{2007}
   \endentry
 
+  \entry{13}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Jonghan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Kyumin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={ChangYong},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Seungjoo},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{LJ+1}
+    \strng{fullhash}{LJCKLCKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{pages}{872\bibrangedash 880}
+    \field{title}{VoIP-aware network attack detection based on statistics and
+  behavior of SIP traffic}
+    \field{volume}{8}
+    \field{journaltitle}{Peer-to-Peer Networking and Applications}
+    \field{year}{2015}
+  \endentry
+
   \entry{18}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=SS}{%
@@ -452,6 +495,400 @@
     \field{volume}{82}
     \field{journaltitle}{Knowledge-Based Systems}
     \field{year}{2015}
+  \endentry
+
+  \entry{port1}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=KT}{%
+         family={Karagiannis},
+         familyi={K\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Broido},
+         familyi={B\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Brownlee},
+         familyi={B\bibinitperiod},
+         given={Nevil},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CKC}{%
+         family={Claffy},
+         familyi={C\bibinitperiod},
+         given={Kimberly\bibnamedelima C},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Faloutsos},
+         familyi={F\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KT+1}
+    \strng{fullhash}{KTBABNCKCFM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{IEEE Global Telecommunications Conference, 2004.
+  GLOBECOM'04.}
+    \field{pages}{1532\bibrangedash 1538}
+    \field{title}{Is p2p dying or just hiding?[p2p traffic measurement]}
+    \field{volume}{3}
+    \field{year}{2004}
+  \endentry
+
+  \entry{port2}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Madhukar},
+         familyi={M\bibinitperiod},
+         given={Alok},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Williamson},
+         familyi={W\bibinitperiod},
+         given={Carey},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{MAWC1}
+    \strng{fullhash}{MAWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{null}
+    \field{pages}{179\bibrangedash 188}
+    \field{title}{A longitudinal study of P2P traffic classification}
+    \field{year}{2006}
+  \endentry
+
+  \entry{dpi1}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhuo},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhibin},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LPP}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Patrick\bibnamedelima PC},
+         giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yunjie},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XG}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Gaogang},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ZZ+1}
+    \strng{fullhash}{ZZZZLPPLYXG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{IEEE INFOCOM 2014-IEEE Conference on Computer
+  Communications}
+    \field{pages}{1393\bibrangedash 1401}
+    \field{title}{Proword: an unsupervised approach to protocol feature word
+  extraction}
+    \field{year}{2014}
+  \endentry
+
+  \entry{dpi2}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yunchun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Jingxuan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LYLJ1}
+    \strng{fullhash}{LYLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{The 2014 2nd International Conference on Systems and
+  Informatics (ICSAI 2014)}
+    \field{pages}{682\bibrangedash 686}
+    \field{title}{MultiClassifier: A combination of DPI and ML for
+  application-layer classification in SDN}
+    \field{year}{2014}
+  \endentry
+
+  \entry{statistic1}{report}{}
+    \name{author}{3}{}{%
+      {{hash=MA}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zuev},
+         familyi={Z\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Crogan},
+         familyi={C\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MAZDCM1}
+    \strng{fullhash}{MAZDCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Discriminators for use in flow-based classification}
+    \field{type}{techreport}
+    \field{year}{2013}
+  \endentry
+
+  \entry{statistic2}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=MAW}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zuev},
+         familyi={Z\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{MAWZD1}
+    \strng{fullhash}{MAWZD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ACM SIGMETRICS Performance Evaluation Review}
+    \field{number}{1}
+    \field{pages}{50\bibrangedash 60}
+    \field{title}{Internet traffic classification using bayesian analysis
+  techniques}
+    \field{volume}{33}
+    \field{year}{2005}
+  \endentry
+
+  \entry{statistic3}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AT}{%
+         family={Auld},
+         familyi={A\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MAW}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=GSF}{%
+         family={Gull},
+         familyi={G\bibinitperiod},
+         given={Stephen\bibnamedelima F},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{ATMAWGSF1}
+    \strng{fullhash}{ATMAWGSF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{223\bibrangedash 239}
+    \field{title}{Bayesian neural networks for internet traffic classification}
+    \field{volume}{18}
+    \field{journaltitle}{IEEE Transactions on neural networks}
+    \field{year}{2007}
+  \endentry
+
+  \entry{statistic4}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zhu},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=YR}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Ruixi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GX}{%
+         family={Guan},
+         familyi={G\bibinitperiod},
+         given={Xiaohong},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LZYRGX1}
+    \strng{fullhash}{LZYRGX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2007 IEEE International Conference on Communications}
+    \field{pages}{1373\bibrangedash 1378}
+    \field{title}{Accurate classification of the internet traffic based on the
+  svm method}
+    \field{year}{2007}
+  \endentry
+
+  \entry{statistic5}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EA}{%
+         family={Este},
+         familyi={E\bibinitperiod},
+         given={Alice},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Gringoli},
+         familyi={G\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Salgarelli},
+         familyi={S\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{EAGFSL1}
+    \strng{fullhash}{EAGFSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{14}
+    \field{pages}{2476\bibrangedash 2490}
+    \field{title}{Support vector machines for TCP traffic classification}
+    \field{volume}{53}
+    \field{journaltitle}{Computer Networks}
+    \field{year}{2009}
+  \endentry
+
+  \entry{behavior1}{inproceedings}{}
+    \true{moreauthor}
+    \name{author}{3}{}{%
+      {{hash=KT}{%
+         family={Karagiannis},
+         familyi={K\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Broido},
+         familyi={B\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Faloutsos},
+         familyi={F\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{KTBAFM+1}
+    \strng{fullhash}{KTBAFM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 4th ACM SIGCOMM conference on Internet
+  measurement}
+    \field{pages}{121\bibrangedash 134}
+    \field{title}{Transport layer identification of P2P traffic}
+    \field{year}{2004}
+  \endentry
+
+  \entry{behavior2}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=KT}{%
+         family={Karagiannis},
+         familyi={K\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Papagiannaki},
+         familyi={P\bibinitperiod},
+         given={Konstantina},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Faloutsos},
+         familyi={F\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{KTPKFM1}
+    \strng{fullhash}{KTPKFM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ACM SIGCOMM computer communication review}
+    \field{number}{4}
+    \field{pages}{229\bibrangedash 240}
+    \field{title}{BLINC: multilevel traffic classification in the dark}
+    \field{volume}{35}
+    \field{year}{2005}
   \endentry
 
   \entry{lstm}{article}{}

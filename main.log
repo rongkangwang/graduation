@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  17 MAR 2019 22:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  18 MAR 2019 22:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1500,14 +1500,45 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 52.
 \largNum=\skip99
 \tocRightMargin=\skip100
 \tocLeftMarginSecondLineFigure=\skip101
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font "Monaco" does not contain any OpenType `Script' information.
+.................................................
+\g__fontspec_family_Monaco_int=\count383
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "Monaco/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "Monaco/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "Monaco/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Monaco(0)' created for font 'Monaco' with options [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"Monaco/AAT"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count383
-\@quotereset=\count384
+\@quotelevel=\count384
+\@quotereset=\count385
 
 *************************************************
 * xeCJK warning: "fandol"
@@ -1520,7 +1551,7 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 * 
 * Font 'FandolSong-Regular' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_FandolSong-Regular_int=\count385
+\g__fontspec_family_FandolSong-Regular_int=\count386
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1540,11 +1571,20 @@ ai-Regular}].
 .................................................
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count386
-\l__xeCJK_listings_flag_int=\count387
+\l__xeCJK_listings_max_char_int=\count387
+\l__xeCJK_listings_flag_int=\count388
 )
-(./main.aux (./abstract.aux) (./manual.aux) (./references.aux)
-(./acknowledgements.aux) (./resume.aux))
+(./main.aux (./abstract.aux) (./manual.aux
+
+LaTeX Warning: Label `lst:storm' multiply defined.
+
+
+LaTeX Warning: Label `lst:storm' multiply defined.
+
+
+LaTeX Warning: Label `lst:storm' multiply defined.
+
+) (./references.aux) (./acknowledgements.aux) (./resume.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
@@ -1589,7 +1629,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count388
+\c@section@level=\count389
 )
 LaTeX Info: Redefining \ref on input line 143.
 LaTeX Info: Redefining \pageref on input line 143.
@@ -1599,7 +1639,7 @@ LaTeX Info: Redefining \nameref on input line 143.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-\c@lstlisting=\count389
+\c@lstlisting=\count390
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1793,13 +1833,15 @@ File: figures/rnn.eps Graphic file (type eps)
 File: figures/psd.eps Graphic file (type eps)
  <figures/psd.eps> [23]
 File: figures/itd.eps Graphic file (type eps)
- <figures/itd.eps> [24]
-File: figures/dataset.eps Graphic file (type eps)
- <figures/dataset.eps>
+ <figures/itd.eps>
+File: figures/rate.eps Graphic file (type eps)
+ <figures/rate.eps> [24]
 [25]
+File: figures/dataset.eps Graphic file (type eps)
+ <figures/dataset.eps> [26]
 File: figures/cnnlstm.eps Graphic file (type eps)
- <figures/cnnlstm.eps> [26] [27]
-Overfull \hbox (8.52159pt too wide) in paragraph at lines 411--413
+ <figures/cnnlstm.eps> [27]
+Overfull \hbox (8.52159pt too wide) in paragraph at lines 422--424
 \TU/FandolSong-Regular(0)/m/n/12 其 中 $\OT1/ztmcm/m/n/12 ([]\OML/ztmcm/m/it/12 ;
  []; [][]; []; []\OT1/ztmcm/m/n/12 )$ \TU/FandolSong-Regular(0)/m/n/12 代 表 第 八 
 层 的 输 入 矩 阵，| $\OT1/ztmcm/m/n/12 ([]([])\OML/ztmcm/m/it/12 ; []\OT1/ztmcm/m/n/1
@@ -1807,25 +1849,26 @@ Overfull \hbox (8.52159pt too wide) in paragraph at lines 411--413
  []\OT1/ztmcm/m/n/12 ([]))$
  []
 
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 438 replaced by U+FFFD.
+[28]
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
 File: figures/feature.eps Graphic file (type eps)
-<figures/feature.eps> [28]
+ <figures/feature.eps> [29]
 File: figures/flow.eps Graphic file (type eps)
- <figures/flow.eps> [29]
+ <figures/flow.eps>
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 518.
+(Font)              using `TU/ptm/m/n' instead on input line 529.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 518.
+(Font)              using `TU/ptm/bx/n' instead on input line 529.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1853,56 +1896,34 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 File: figures/kafka.eps Graphic file (type eps)
  <figures/kafka.eps> [41]
 File: figures/storm.eps Graphic file (type eps)
- <figures/storm.eps>
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Overfull \hbox (23.79424pt too wide) in paragraph at lines 817--818
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (30.99431pt too wide) in paragraph at lines 818--819
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[42] [43]
+ <figures/storm.eps> [42] [43]
 第\CJKnumber {5}章 5.
 [44
 
 ] [45] [46] [47]
-Invalid UTF-8 byte or sequence at line 971 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 971 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 971 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 971 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 971 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 971 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 971 replaced by U+FFFD.
-File: figures/fprtpr.eps Graphic file (type eps)
- <figures/fprtpr.eps>
-
-LaTeX Warning: Float too large for page by 14.17545pt on input line 974.
-
-Invalid UTF-8 byte or sequence at line 980 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 980 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 980 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 980 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 980 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 980 replaced by U+FFFD.
+File: figures/clnn-batch.eps Graphic file (type eps)
+ <figures/clnn-batch.eps>
+Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
 File: figures/tf.eps Graphic file (type eps)
-<figures/tf.eps>
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 990 replaced by U+FFFD.
+ <figures/tf.eps>
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
 File: figures/ml.eps Graphic file (type eps)
- <figures/ml.eps> [48] [49] [50] [51]
+ <figures/ml.eps>
+[48] [49] [50] [51]
 第\CJKnumber {6}章 6.
 [52
 
@@ -1984,6 +2005,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1994,12 +2018,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34859 strings out of 493005
- 652682 string characters out of 6134596
- 969045 words of memory out of 5000000
- 38457 multiletter control sequences out of 15000+600000
- 42449 words of font info for 143 fonts, out of 8000000 for 9000
+ 34762 strings out of 493005
+ 651684 string characters out of 6134596
+ 1011159 words of memory out of 5000000
+ 38352 multiletter control sequences out of 15000+600000
+ 42473 words of font info for 146 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,19n,59p,10440b,12436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,59p,10440b,12465s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (68 pages).

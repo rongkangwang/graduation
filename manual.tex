@@ -351,13 +351,24 @@ RTP/RTCP是UDP的上层协议，其报头可以作为识别VoIP流量的基本�
 \subsubsection{包到达间隔分布}
 现存的研究中很少有直接使用包到达间隔分布作为VoIP识别的特征，在一篇使用机器学习进行VoIP流分类的研究中\supercite{5}，作者使用VoIP语音流的包到达间隔的标准差作为一项特征进行识别。另外，一篇进行VoIP流量统计的文章中显示，在VoIP信令控制流量和媒体传输流量中70\%的包到达间隔少于20ms\supercite{he2007analysing}，意味着VoIP应用对语音的打包周期普遍少于20ms。
 
-图中\ref{fig:itd}展示了9种VoIP应用产生的流量的包到达间隔分布。很明显的我们可以看到9种VoIP应用产生的流量的包达到间隔都有差异。具体的特征我们可以依靠深度学习方法进行提取。值得一提的是，使用数据包大小分布不能进行区分的Eyebeam和ExpressTalk两种VoIP应用的流量，此时可以通过包到达间隔分布作出区分。
+图片\ref{fig:itd}展示了9种VoIP应用产生的流量的包到达间隔分布。很明显的我们可以看到9种VoIP应用产生的流量的包达到间隔都有差异。具体的特征我们可以依靠深度学习方法进行提取。值得一提的是，使用数据包大小分布不能进行区分的Eyebeam和ExpressTalk两种VoIP应用的流量，此时可以通过包到达间隔分布作出区分。
 
 
 \begin{figure}[thb]
 \begin{center}
 \includegraphics[width=1\textwidth]{figures/itd.eps}
 \caption{包到达间隔分布}\label{fig:itd}
+\end{center}
+\end{figure}
+
+\subsubsection{分组交换率}
+分组交换率是客户端与服务器之间交换数据包的比率，图片\ref{fig:rate}展示了每10个分组中客户端发送和服务器发送的分组比值分布。我们可以看出VoIP应用之间以及VoIP应用与非VoIP应用之间的分组交换率都有着明显差异，分组交换率也可以作为VoIP流量识别的统计特征之一。
+
+
+\begin{figure}[thb]
+\begin{center}
+\includegraphics[width=1\textwidth]{figures/rate.eps}
+\caption{服务器客户端分组交换率分布}\label{fig:rate}
 \end{center}
 \end{figure}
 
@@ -691,22 +702,29 @@ CLNN模型在学习过程中会生成大量的参数，大量的参数也是CLNN
 \subsection{Keras搭建模型}
 本文使用Keras提供的Model类搭建函数式模型，需要导入Keras提供的models包。使用
 \begin{center}
+\monaco
 model=Model(input=subflows,output=[model])
 \end{center}
 创建模型。之后，向该模型中添加隐层，本文主要使用了3种隐层，卷积层、全连接层和LSTM层。依次可以使用
 \begin{center}
+\monaco
 model = Conv2D(filters, kernel\_size, strides, activation)(model)
 \end{center}
 \begin{center}
+\monaco
 model = Dense(units, activation)(model)
 \end{center}
 \begin{center}
+\monaco
 model = LSTM(units, activation)(model)
 \end{center}
 添加到CLNN模型中。另外，本文选择性使用了池化层（MaxPooling2D）和失活层（Dropout）加速训练的过程。在维度转换时，本文使用了平滑层（Flatten）和变形层（Reshape）提供的支持。
 
 本文搭建的CLNN模型最主要的特性是针对频域特征和时域特征同时进行提取，最后使用全连接层综合两个类型的特征。以下代码段展示了如何将CNN和LSTM提取的特征进行组合。
-\begin{lstlisting}[language={Python},label={lst:concat}]  
+\begin{lstlisting}[breaklines=true,language={Java},frame=single,basicstyle=\small\monaco,label={lst:storm},
+keywordstyle=\color{blue!70},
+rulesepcolor=\color{red!20!green!20!blue!20},escapeinside=``,
+xleftmargin=1.5em,xrightmargin=1.5em, aboveskip=1em]
 input = Input(input_shape)
 conv = create_cnn_layers(input)
 lstm = create_lstm_layers(input, input_shape[0])
@@ -719,22 +737,26 @@ CLNN模型迭代训练是通过训练数据集不断调整权值寻找具有最�
 
 本文使用随机梯度下降的算法进行权值的更新，同时在随机梯度下降时引入冲量，冲量用于表示上一梯度对当前梯度的贡献率。梯度下降算法采用小批量更新的策略，每一批样本数据计算一次损失函数并更新参数。随机梯度下降优化器可通过SGD类进行定义。
 \begin{center}
+\monaco
 sgd = SGD(lr=0.0, decay=0.0, momentum=0.9, nesterov=True)
 \end{center}
 为CLNN模型配置损失函数和优化器类型通过compile函数完成，
 \begin{center}
+\monaco
 model.compile(loss='categorical\_crossentropy', optimizer=sgd)
 \end{center}
 以上配置所使用的损失函数为针对多类的对数损失函数。
 
 上文中定义随机梯度下降函数时没有为SGD指定学习率，因为本文采取每轮训练完成后都要对学习率进行更新的策略。以下代码段为对上一章中介绍的公式\ref{equ:decay}的具体实现。
-\begin{lstlisting}[language={Python},label={lst:decay}]  
+\begin{lstlisting}[breaklines=true,language={Java},frame=single,basicstyle=\small\monaco,label={lst:storm},
+keywordstyle=\color{blue!70},
+rulesepcolor=\color{red!20!green!20!blue!20},escapeinside=``,
+xleftmargin=1.5em,xrightmargin=1.5em, aboveskip=1em]
 def step_decay(epoch):
     initial_lrate = 0.01
     drop = 0.5
     epochs_drop = 5.0
-    lrate = initial_lrate * 
-        math.pow(drop,math.floor((1+epoch)/epochs_drop))
+    lrate = initial_lrate * math.pow(drop,math.floor((1+epoch)/epochs_drop))
     print(lrate)
     return lrate
 lrate = LearningRateScheduler(step_decay)
@@ -742,11 +764,13 @@ lrate = LearningRateScheduler(step_decay)
 
 训练中使用EarlyStopping优化训练行为，当损失不再减小时则提前停止训练过程。
 \begin{center}
+\monaco
 earlystopping = EarlyStopping(monitor='val\_loss', patience=1)
 \end{center}
 
 我们在训练中对全部数据指定进行20轮的计算，当然，在满足EarlyStopping的条件后训练也会提前结束。每200个样本计算后反向传播进行梯度的更新。以下函数最后的callbacks参数展示对学习率更新以及EarlyStopping的调用。
 \begin{center}
+\monaco
 model.fit(X\_train, Y\_train, batch\_size=200,validation\_data=(X\_val, Y\_val),epochs=20,callbacks=[early\_stopping,lrate])
 \end{center}
 
@@ -793,10 +817,12 @@ Kafka模块是用于直接对接真实网络环境的基础模块，其可以按
 Kafka提供良好的Java编程接口，我们主要使用其提供的生产者接口将真实网络中的流量发送到Kafka集群中。以下分别为发送单条数据和发送多条数据所对应的接口。
 
 \begin{center}
+\monaco
 public void send(KeyedMessage<K,V> message) 
 \end{center}
 
 \begin{center}
+\monaco
 public void send(List< KeyedMessage<K,V> > messages) 
 \end{center}
 
@@ -812,21 +838,18 @@ Storm模块是支持实时识别的核心模块，其对来自Kafka集群的动�
 \end{center}
 \end{figure}
 以下代码段展示了Storm拓扑的搭建过程。
-\begin{lstlisting}[language={Java},label={lst:storm}]  
+\begin{lstlisting}[breaklines=true,language={Java},frame=single,basicstyle=\small\monaco,label={lst:storm},
+keywordstyle=\color{blue!70},
+rulesepcolor=\color{red!20!green!20!blue!20},escapeinside=``,
+xleftmargin=1.5em,xrightmargin=1.5em, aboveskip=1em]  
 TopologyBuilder tb = new TopologyBuilder();
-tb.setSpout("spout", new TrafficSpout(), 3);  // executor num
+tb.setSpout("spout", new TrafficSpout(), 3);
 tb.setBolt("udpbolt", new UDPBolt()).shuffleGrouping("spout");
-tb.setBolt("pendingflowsbolt", new PendingFlowsBolt())
-        .fieldsGrouping("udpbolt", new Fields("key"));
-tb.setBolt("classifierbolt10", new ClassifierBolt10())
-        .shuffleGrouping("pendingflowsbolt", "10");
-tb.setBolt("filterbolt", new FilterBolt())
-        .shuffleGrouping("pendingflowsbolt", "100");
-tb.setBolt("classifierbolt100", new ClassifierBolt())
-        .shuffleGrouping("filterbolt");
-tb.setBolt("rediswriterbolt", new RedisWriterBolt())
-        .shuffleGrouping("classifierbolt10")
-            .shuffleGrouping("classifierbolt100");
+tb.setBolt("pendingflowsbolt", new PendingFlowsBolt()).fieldsGrouping("udpbolt", new Fields("key"));
+tb.setBolt("classifierbolt10", new ClassifierBolt10()).shuffleGrouping("pendingflowsbolt", "10");
+tb.setBolt("filterbolt", new FilterBolt()).shuffleGrouping("pendingflowsbolt", "100");
+tb.setBolt("classifierbolt100", new ClassifierBolt()).shuffleGrouping("filterbolt");
+tb.setBolt("rediswriterbolt", new RedisWriterBolt()).shuffleGrouping("classifierbolt10").shuffleGrouping("classifierbolt100");
 \end{lstlisting}  
 
 \section{本章小结}
@@ -964,12 +987,12 @@ FPR = \frac{{FP}}{{FP + TN}}
 \end{table}
 
 %这里要改，不再使用dataset2作验证
-因为训练过程中普遍存在过拟合的现象，甚至在验证阶段可能不会表现出来。因此我们使用数据集2进行全面的验证。图片\ref{fig:fprtpr}中的前十个图表展示了使用数据集2进行验证的10种VoIP应用流量所对应的TPR，后两个图表展示了数据集2的FPR和TPR分布。很明显的，在前4张图表中我们可以看到一些异常值，分别是使用模型-20进行识别Skype流量、模型-4识别Xlite流量、模型-6识别Eyebeam流量和模型-2识别Bria流量时，这表明这四种模型在训练时针对这几种流量出现了过拟合现象。我们在实时识别过程的过程中暂时放弃使用这几个模型识别出的结果对应四种流量的结果。在未来的研究过程中，第一步我们需要将数据集2合并到数据集1中再次训练，第二步我们考虑加入L1和L2正则层避免过拟合现象。抛除以上几个异常值，综合显示CLNN模型有优秀的识别性能。
+因为训练过程中普遍存在过拟合的现象，甚至在验证阶段可能不会表现出来。因此我们使用数据集2进行全面的验证。图片\ref{fig:clnn-batch}中的前十个图表展示了使用数据集2进行验证的10种VoIP应用流量所对应的TPR，后两个图表展示了数据集2的FPR和TPR分布。很明显的，在前4张图表中我们可以看到一些异常值，分别是使用模型-20进行识别Skype流量、模型-4识别Xlite流量、模型-6识别Eyebeam流量和模型-2识别Bria流量时，这表明这四种模型在训练时针对这几种流量出现了过拟合现象。我们在实时识别过程的过程中暂时放弃使用这几个模型识别出的结果对应四种流量的结果。在未来的研究过程中，第一步我们需要将数据集2合并到数据集1中再次训练，第二步我们考虑加入L1和L2正则层避免过拟合现象。抛除以上几个异常值，综合显示CLNN模型有优秀的识别性能。
 
 \begin{figure*}[htp]
 \begin{center}
-\includegraphics[width=1\textwidth]{figures/fprtpr.eps}
-\caption{8种CLNN模型的TPR和FPR结果}\label{fig:fprtpr}
+\includegraphics[width=1\textwidth]{figures/clnn-batch.eps}
+\caption{8种CLNN模型的TPR和FPR结果}\label{fig:clnn-batch}
 \end{center}
 \end{figure*}
 

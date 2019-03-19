@@ -26,13 +26,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 包到达间隔分布}}{25}{figure.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 滑窗大小为10时选择4个子流$^{10}$}}{26}{figure.3.3}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 服务器客户端分组交换率分布}}{25}{figure.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces CLNN模型提取特征的基本思想}}{27}{figure.3.4}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 滑窗大小为10时选择4个子流$^{10}$}}{26}{figure.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces CLNN模型所提取特征的字节码表现形式}}{29}{figure.3.5}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces CLNN模型提取特征的基本思想}}{28}{figure.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 根据IP地址和UDP端口号进行分流}}{30}{figure.3.6}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces CLNN模型所提取特征的字节码表现形式}}{29}{figure.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 根据IP地址和UDP端口号进行分流}}{30}{figure.3.7}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

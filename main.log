@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  18 MAR 2019 22:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  19 MAR 2019 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1500,45 +1500,14 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 52.
 \largNum=\skip99
 \tocRightMargin=\skip100
 \tocLeftMarginSecondLineFigure=\skip101
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Monaco" does not contain any OpenType `Script' information.
-.................................................
-\g__fontspec_family_Monaco_int=\count383
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Monaco/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Monaco/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "Monaco/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Monaco(0)' created for font 'Monaco' with options [].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"Monaco/AAT"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count384
-\@quotereset=\count385
+\@quotelevel=\count383
+\@quotereset=\count384
 
 *************************************************
 * xeCJK warning: "fandol"
@@ -1551,7 +1520,7 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 * 
 * Font 'FandolSong-Regular' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_FandolSong-Regular_int=\count386
+\g__fontspec_family_FandolSong-Regular_int=\count385
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1571,13 +1540,10 @@ ai-Regular}].
 .................................................
 (/usr/local/texlive/2017/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count387
-\l__xeCJK_listings_flag_int=\count388
+\l__xeCJK_listings_max_char_int=\count386
+\l__xeCJK_listings_flag_int=\count387
 )
 (./main.aux (./abstract.aux) (./manual.aux
-
-LaTeX Warning: Label `lst:storm' multiply defined.
-
 
 LaTeX Warning: Label `lst:storm' multiply defined.
 
@@ -1587,59 +1553,59 @@ LaTeX Warning: Label `lst:storm' multiply defined.
 ) (./references.aux) (./acknowledgements.aux) (./resume.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 143.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 143.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 141.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 141.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Try loading font information for TU+ptm on input line 143.
-LaTeX Font Info:    No file TUptm.fd. on input line 143.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Try loading font information for TU+ptm on input line 141.
+LaTeX Font Info:    No file TUptm.fd. on input line 141.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 143.
+(Font)              using `TU/lmr/m/n' instead on input line 141.
 
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 143.
+Package hyperref Info: Link coloring ON on input line 141.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count389
+\c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 143.
-LaTeX Info: Redefining \pageref on input line 143.
-LaTeX Info: Redefining \nameref on input line 143.
+LaTeX Info: Redefining \ref on input line 141.
+LaTeX Info: Redefining \pageref on input line 141.
+LaTeX Info: Redefining \nameref on input line 141.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-\c@lstlisting=\count390
+\c@lstlisting=\count389
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1652,57 +1618,57 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 143.
-Package biblatex Info: Reference segment=0 on input line 143.
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 177.
+Package biblatex Info: Reference section=0 on input line 141.
+Package biblatex Info: Reference segment=0 on input line 141.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 175.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 17
-7.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 17
-7.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 17
-7.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 17
-7.
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 177.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 175.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 File: nankaidaxue.pdf Graphic file (type QTm)
 
 <use  "nankaidaxue.pdf" >
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 177.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 175.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.36008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.40009> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 
-Overfull \hbox (26.18898pt too wide) detected at line 177
+Overfull \hbox (26.18898pt too wide) detected at line 175
  \TU/FandolSong-Regular(0)/m/n/14 计 算 机 与 控 制 工 程 学 院 
  []
 
@@ -1716,7 +1682,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ]
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/n' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 177.
+(Font)              using `TU/ptm/m/n' instead on input line 175.
 
 Missing character: There is no □ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ■ in font [lmroman10-regular]:mapping=tex-text;!
@@ -1727,11 +1693,11 @@ Missing character: There is no □ in font [lmroman10-regular]:mapping=tex-text;
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
 Missing character: There is no □ in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no □ in font [lmroman12-regular]:mapping=tex-text;!
@@ -1780,6 +1746,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--41
 \openout2 = `manual.aux'.
 
  (./manual.tex
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font "Monaco" does not contain any OpenType `Script' information.
+.................................................
+\g__fontspec_family_Monaco_int=\count390
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "Monaco/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "Monaco/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "Monaco/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Monaco(0)' created for font 'Monaco' with options [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"Monaco/AAT"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+
 第\CJKnumber {1}章 1.
 [1
 
@@ -1806,26 +1804,23 @@ File: figures/softswitch.eps Graphic file (type eps)
 File: figures/rtp.eps Graphic file (type eps)
  <figures/rtp.eps> [11] [12] [13] [14]
 File: figures/lstm.eps Graphic file (type eps)
- <figures/lstm.eps>
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 203.
+ <figures/lstm.eps> [15]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 210.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
- [15] [16]
-[17]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 210.
+ [16] [17]
 File: figures/cnn.eps Graphic file (type eps)
- <figures/cnn.eps>
+
+<figures/cnn.eps>
 File: figures/pooling.eps Graphic file (type eps)
- <figures/pooling.eps> [18]
-
-LaTeX Warning: Reference `rnn:cnn' on page 19 undefined on input line 264.
-
+ <figures/pooling.eps> [18] [19]
 File: figures/rnn.eps Graphic file (type eps)
-<figures/rnn.eps> [19] [20]
+ <figures/rnn.eps> [20]
 第\CJKnumber {3}章 3.
 [21
 
@@ -1841,7 +1836,7 @@ File: figures/dataset.eps Graphic file (type eps)
  <figures/dataset.eps> [26]
 File: figures/cnnlstm.eps Graphic file (type eps)
  <figures/cnnlstm.eps> [27]
-Overfull \hbox (8.52159pt too wide) in paragraph at lines 422--424
+Overfull \hbox (8.52159pt too wide) in paragraph at lines 429--431
 \TU/FandolSong-Regular(0)/m/n/12 其 中 $\OT1/ztmcm/m/n/12 ([]\OML/ztmcm/m/it/12 ;
  []; [][]; []; []\OT1/ztmcm/m/n/12 )$ \TU/FandolSong-Regular(0)/m/n/12 代 表 第 八 
 层 的 输 入 矩 阵，| $\OT1/ztmcm/m/n/12 ([]([])\OML/ztmcm/m/it/12 ; []\OT1/ztmcm/m/n/1
@@ -1850,25 +1845,25 @@ Overfull \hbox (8.52159pt too wide) in paragraph at lines 422--424
  []
 
 [28]
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 449 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
 File: figures/feature.eps Graphic file (type eps)
  <figures/feature.eps> [29]
 File: figures/flow.eps Graphic file (type eps)
  <figures/flow.eps>
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 529.
+(Font)              using `TU/ptm/m/n' instead on input line 536.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 529.
+(Font)              using `TU/ptm/bx/n' instead on input line 536.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1903,24 +1898,8 @@ File: figures/storm.eps Graphic file (type eps)
 ] [45] [46] [47]
 File: figures/clnn-batch.eps Graphic file (type eps)
  <figures/clnn-batch.eps>
-Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1003 replaced by U+FFFD.
 File: figures/tf.eps Graphic file (type eps)
  <figures/tf.eps>
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1013 replaced by U+FFFD.
 File: figures/ml.eps Graphic file (type eps)
  <figures/ml.eps>
 [48] [49] [50] [51]
@@ -1992,18 +1971,15 @@ razzles-Indian-
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (./main.aux (./abstract.aux)
 (./manual.aux) (./references.aux) (./acknowledgements.aux) (./resume.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 188.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2011,19 +1987,19 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34762 strings out of 493005
- 651684 string characters out of 6134596
- 1011159 words of memory out of 5000000
- 38352 multiletter control sequences out of 15000+600000
- 42473 words of font info for 146 fonts, out of 8000000 for 9000
+ 34792 strings out of 493005
+ 652561 string characters out of 6134596
+ 999275 words of memory out of 5000000
+ 38372 multiletter control sequences out of 15000+600000
+ 42545 words of font info for 155 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,19n,59p,10440b,12465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,60p,10440b,12464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (68 pages).

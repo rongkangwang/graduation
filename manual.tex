@@ -613,7 +613,7 @@ VoIP流过滤器作为实时识别系统的第二个重要组件，它是一个�
 \begin{figure}[htp]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{figures/skype1.png}
-\caption{Skype$\text{子流}^100$的图片表现形式}\label{fig:skype1}
+\caption{Skype$\text{子流}^{100}$的图片表现形式}\label{fig:skype1}
 \end{center}
 \end{figure}
 
@@ -950,7 +950,7 @@ tb.setBolt("rediswriterbolt", new RedisWriterBolt()).shuffleGrouping("classifier
 \subsection{数据集}
 本文针对10种流行的VoIP应用和多种非VoIP的视频和即使游戏应用进行了流量的捕获工作。为了提升识别的泛化能力，我们部署了8台计算机，其中6台计算机安装了Windows操作系统，2台计算机安装了Linux操作系统，2台Linux计算机安装了提供支持在Linux环境下使用的4种VoIP应用，6台装载Windows操作系统的计算机均安装了10种VoIP应用。其次我们捕获了视频应用、视频通话应用和即时游戏应用的UDP流量作为非VoIP应用流量。为了保证VoIP通话线路的泛化性，我们从国内包括河北省、吉林省、广东省和四川省多个地方拨打电话用于流量获取工作。
 
-本文将采集到的数据分成两个数据集，数据集1用于训练CLNN模型，数据集2用作回放流量验证实时系统的性能。\ref{tab:traffic}展示了数据集1的统计信息和经过处理后用于训练的$\text{子流}^10$个数。数据集2不做子流处理，其流量大小与数据集1相同，将通过tcpreplay软件进行流量回放验证实时系统的识别效率、准确率和鲁棒性。训练过程中数据集1中的80\%子流用作训练CLNN模型，20\%的子流用于训练过程中验证准确率。
+本文将采集到的数据分成两个数据集，数据集1用于训练CLNN模型，数据集2用作回放流量验证实时系统的性能。表格\ref{tab:traffic}展示了数据集1的统计信息和经过处理后用于训练的$\text{子流}^10$个数。数据集2不做子流处理，其流量大小与数据集1相同，将通过tcpreplay软件进行流量回放验证实时系统的识别效率、准确率和鲁棒性。训练过程中数据集1中的80\%子流用作训练CLNN模型，20\%的子流用于训练过程中验证准确率。
 
 \begin{table}[htbp]
   \caption{数据集1详细信息}

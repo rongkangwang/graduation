@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  20 MAR 2019 00:11
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  20 MAR 2019 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1784,11 +1784,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
  [2] [3] [4] [5]
 第\CJKnumber {2}章 2.
 [6
@@ -1802,41 +1802,46 @@ File: figures/softswitch.eps Graphic file (type eps)
  <figures/softswitch.eps>
 [9] [10]
 File: figures/rtp.eps Graphic file (type eps)
- <figures/rtp.eps> [11] [12] [13] [14]
+ <figures/rtp.eps> [11] [12] [13]
+
+LaTeX Warning: Citation 'voipmethod1' on page 14 undefined on input line 192.
+
+[14] [15]
 File: figures/lstm.eps Graphic file (type eps)
- <figures/lstm.eps> [15]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 210.
+ <figures/lstm.eps>
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 246.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 210.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
  [16] [17]
+[18]
 File: figures/cnn.eps Graphic file (type eps)
-
-<figures/cnn.eps>
+ <figures/cnn.eps>
 File: figures/pooling.eps Graphic file (type eps)
- <figures/pooling.eps> [18] [19]
+ <figures/pooling.eps> [19]
 File: figures/rnn.eps Graphic file (type eps)
  <figures/rnn.eps> [20]
+[21]
 第\CJKnumber {3}章 3.
-[21
+[22
 
-] [22]
+] [23]
 File: figures/psd.eps Graphic file (type eps)
- <figures/psd.eps> [23]
+ <figures/psd.eps> [24]
 File: figures/itd.eps Graphic file (type eps)
  <figures/itd.eps>
 File: figures/rate.eps Graphic file (type eps)
- <figures/rate.eps> [24]
-[25]
+ <figures/rate.eps> [25]
+[26]
 File: figures/dataset.eps Graphic file (type eps)
- <figures/dataset.eps> [26]
+ <figures/dataset.eps> [27]
 File: figures/cnnlstm.eps Graphic file (type eps)
- <figures/cnnlstm.eps> [27]
-Overfull \hbox (8.52159pt too wide) in paragraph at lines 429--431
+ <figures/cnnlstm.eps> [28]
+Overfull \hbox (8.52159pt too wide) in paragraph at lines 465--467
 \TU/FandolSong-Regular(0)/m/n/12 其 中 $\OT1/ztmcm/m/n/12 ([]\OML/ztmcm/m/it/12 ;
  []; [][]; []; []\OT1/ztmcm/m/n/12 )$ \TU/FandolSong-Regular(0)/m/n/12 代 表 第 八 
 层 的 输 入 矩 阵，| $\OT1/ztmcm/m/n/12 ([]([])\OML/ztmcm/m/it/12 ; []\OT1/ztmcm/m/n/1
@@ -1844,69 +1849,69 @@ Overfull \hbox (8.52159pt too wide) in paragraph at lines 429--431
  []\OT1/ztmcm/m/n/12 ([]))$
  []
 
-[28]
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 456 replaced by U+FFFD.
+[29]
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
 File: figures/feature.eps Graphic file (type eps)
- <figures/feature.eps> [29]
+ <figures/feature.eps> [30]
 File: figures/flow.eps Graphic file (type eps)
  <figures/flow.eps>
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 536.
+(Font)              using `TU/ptm/m/n' instead on input line 572.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 536.
+(Font)              using `TU/ptm/bx/n' instead on input line 572.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31] [32]
+[31] [32] [33]
 第\CJKnumber {4}章 4.
 File: figures/architecture.eps Graphic file (type eps)
-<figures/architecture.eps> [33
+<figures/architecture.eps> [34
 
 ]
 File: figures/online_3_component.eps Graphic file (type eps)
- <figures/online_3_component.eps> [34]
+ <figures/online_3_component.eps> [35]
 File: figures/datasetprocessing.eps Graphic file (type eps)
 
-<figures/datasetprocessing.eps> [35]
+<figures/datasetprocessing.eps> [36]
 File: figures/skype1.png Graphic file (type QTm)
- <use  "figures/skype1.png" > [36]
+ <use  "figures/skype1.png" > [37]
 Missing character: There is no （ in font zptmcm7t!
 Missing character: There is no ） in font zptmcm7t!
- [37]
+ [38]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [38]
-[39] [40]
+) [39]
+[40] [41]
 File: figures/kafka.eps Graphic file (type eps)
- <figures/kafka.eps> [41]
+ <figures/kafka.eps> [42]
 File: figures/storm.eps Graphic file (type eps)
- <figures/storm.eps> [42] [43]
+ <figures/storm.eps> [43] [44]
 第\CJKnumber {5}章 5.
-[44
+[45
 
-] [45] [46] [47]
+] [46] [47] [48]
 File: figures/clnn-batch.eps Graphic file (type eps)
  <figures/clnn-batch.eps>
 File: figures/tf.eps Graphic file (type eps)
  <figures/tf.eps>
 File: figures/ml.eps Graphic file (type eps)
  <figures/ml.eps>
-[48] [49] [50] [51]
+[49] [50] [51] [52]
 第\CJKnumber {6}章 6.
-[52
+[53
 
-]) [53]
+]) [54]
 \openout2 = `references.aux'.
 
  (./references.tex
@@ -1944,34 +1949,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
 
  []
 
-[54
+[55
 
 
 
-] [55]) [56] (./main.lof [57
+] [56]) [57] (./main.lof [58
 
 
 ])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [58] (./main.lot)
+ [59] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [59
+ [60
 
 ]
 \openout2 = `acknowledgements.aux'.
 
 
-(./acknowledgements.tex) [60
+(./acknowledgements.tex) [61
 
 
 ]
 \openout2 = `resume.aux'.
 
- (./resume.tex) [61
+ (./resume.tex) [62
 
 
 
@@ -1987,7 +1992,15 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 188.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
@@ -1999,12 +2012,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34792 strings out of 493005
- 652561 string characters out of 6134596
- 999278 words of memory out of 5000000
- 38372 multiletter control sequences out of 15000+600000
- 42545 words of font info for 155 fonts, out of 8000000 for 9000
+ 34804 strings out of 493005
+ 652866 string characters out of 6134596
+ 999383 words of memory out of 5000000
+ 38381 multiletter control sequences out of 15000+600000
+ 42569 words of font info for 158 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,19n,60p,10440b,12464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (68 pages).
+Output written on main.pdf (69 pages).

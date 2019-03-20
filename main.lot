@@ -6,28 +6,30 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces VoIP应用使用的解编码器}}{22}{table.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces 算法\ref {algorithm:filter}中使用的基准值和阈值参数}}{31}{table.3.2}
+\contentsline {table}{\numberline {2.1}{\ignorespaces 基于熵变和解编码器类型的特征}}{15}{table.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces CLNN模型参数详情}}{37}{table.4.1}
+\contentsline {table}{\numberline {3.1}{\ignorespaces VoIP应用使用的解编码器}}{23}{table.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces 8个CLNN模型生成的权值个数及HDF5文件大小详情}}{40}{table.4.2}
+\contentsline {table}{\numberline {3.2}{\ignorespaces 算法\ref {algorithm:filter}中使用的基准值和阈值参数}}{32}{table.3.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces 开发环境}}{44}{table.5.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces CLNN模型参数详情}}{38}{table.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces 运行环境}}{45}{table.5.2}
+\contentsline {table}{\numberline {4.2}{\ignorespaces 8个CLNN模型生成的权值个数及HDF5文件大小详情}}{41}{table.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.3}{\ignorespaces 数据集1详细信息}}{46}{table.5.3}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.4}{\ignorespaces 8个模型对训练数据集和验证数据集的识别率}}{47}{table.5.4}
+\contentsline {table}{\numberline {5.1}{\ignorespaces 开发环境}}{45}{table.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.5}{\ignorespaces VoIP实时识别系统识别100个流所耗费的时间}}{51}{table.5.5}
+\contentsline {table}{\numberline {5.2}{\ignorespaces 运行环境}}{46}{table.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.3}{\ignorespaces 数据集1详细信息}}{47}{table.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.4}{\ignorespaces 8个模型对训练数据集和验证数据集的识别率}}{48}{table.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.5}{\ignorespaces VoIP实时识别系统识别100个流所耗费的时间}}{52}{table.5.5}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

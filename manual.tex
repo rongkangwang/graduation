@@ -1,6 +1,6 @@
 % -*- coding: utf-8 -*-
-\newfontfamily\monaco{Monaco}
-%\newfontfamily\monaco{SimHei}
+%\newfontfamily\monaco{Monaco}
+\newfontfamily\monaco{SimHei}
 \chapter{引言}
 
 \section{研究背景}
@@ -221,10 +221,17 @@ G.722& 171 & 175 & 0.10 & 1.00 & 450 \\
 \end{tabular}
 \end{table}
 
-T Qin等人提出了基于双向流模型和PSD特征的VoIP实时识别方法\supercite{22}，该方法同样使用数据流中的前几个数据包进行识别保证实时性。
+T Qin等人提出了基于双向流模型提取PSD特征进行VoIP实时识别的方法\supercite{22}，在此基础上该方法同样使用数据流中的前几个数据包进行识别保证实时性。该方法虽然提出了通过双向流反映客户端和服务器的行为特征，但是在文中并没有明确的使用双向流进行行为特征的提取。每个双向流的PSD可以表示为式子\ref{equ:psd}，其中$x$表示数据包大小，$p_{k}$表示数据包大小为$k$的数据包在当前流中所占的比例。为了进行具体应用类型的识别，文中采用瑞丽熵计算实时识别阶段捕获的数据流的PSD与PSD样本的相似度，得到当前流对样本的可能性序列，该序列可以决定VoIP流量识别的结果。实验结果表明该方法对文中所使用的数据集达到了97\%的识别率。
+\begin{equation}
+\label{equ:psd}
+\binom{x}{p}=\begin{pmatrix}
+0 & 1 & ... &  k&  ...&n \\ 
+ p_{0}&  p_{1}&...  & p_{k} &...  & p_{n}
+\end{pmatrix}
+\end{equation}
 
 
-以上第一种方法与大部分进行VoIP流量识别的方法相同仅进行VoIP与非VoIP流量级别的识别，不能做到准确的基于应用的VoIP流量识别。
+对于以上两种VoIP流量实时识别的方法，第一种方法与大部分进行VoIP流量识别的方法相同仅进行VoIP与非VoIP流量级别的识别，不能做到准确的基于应用的VoIP流量识别。该方法中提到了VoIP所使用的解编码器的概念，但是解编码器不是作为进行VoIP识别的特征之一，而是作为识别结果被提出继而进行了VoIP会话的识别。解编码器类型在RTP负载中是可以被提取的，不能直接提取解编码器类型的主要原因在于从UDP流量中识别出RTP流量是困难的。如果可以将VoIP流量所使用的解编码器类型作为识别特征，那么不管是从识别效率还是识别准确率方面都会获得更好的结果。第二种方法与本文动机一致，都是进行VoIP应用具体类型的识别。但是该方法没有明确提取VoIP双向流的行为特征用于识别，其所使用的识别特征过于单一，对于PSD特征相近的VoIP应用无法做到准确识别。
 
 
 
@@ -1118,16 +1125,26 @@ FPR = \frac{{FP}}{{FP + TN}}
 \end{center}
 \end{figure}
 
-\section{实验对比}
-\subsection{特征集对比}
+\subsection{实验对比}
 由于VoIP数据集的特殊性，本文所使用的识别方案无法与已存的识别方案直接进行对比。我们使用本文CLNN模型提取的特征集与文章\supercite{5}中的所使用特征集进行对比，分别使用SVM，随机森林，C5.0决策树和朴素贝叶斯四种机器学习方法对两种特征集训练了分类器。图片\ref{fig:ml}展示了CLNN模型提取的特征集与文章\supercite{5}中使用特征集的对比结果。
+
 \begin{figure}
   \centering
   \includegraphics[width=0.8\textwidth]{figures/ml.eps}
   \caption{CLNN模型提取特征集与文章\supercite{5}中特征集对比}
   \label{fig:ml}
 \end{figure}
-\subsection{其他方法对比}
+
+% \section{实验对比}
+% \subsection{特征集对比}
+% 由于VoIP数据集的特殊性，本文所使用的识别方案无法与已存的识别方案直接进行对比。我们使用本文CLNN模型提取的特征集与文章\supercite{5}中的所使用特征集进行对比，分别使用SVM，随机森林，C5.0决策树和朴素贝叶斯四种机器学习方法对两种特征集训练了分类器。图片\ref{fig:ml}展示了CLNN模型提取的特征集与文章\supercite{5}中使用特征集的对比结果。
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=0.8\textwidth]{figures/ml.eps}
+%   \caption{CLNN模型提取特征集与文章\supercite{5}中特征集对比}
+%   \label{fig:ml}
+% \end{figure}
+% \subsection{其他方法对比}
 
 
 \section{实时性评估}

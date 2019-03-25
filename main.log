@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  20 MAR 2019 23:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.12)  25 MAR 2019 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1806,42 +1806,42 @@ File: figures/rtp.eps Graphic file (type eps)
 
 LaTeX Warning: Citation 'voipmethod1' on page 14 undefined on input line 192.
 
-[14] [15]
+[14] [15] [16]
 File: figures/lstm.eps Graphic file (type eps)
  <figures/lstm.eps>
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 246.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 259.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
- [16] [17]
-[18]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 259.
+ [17] [18]
+[19]
 File: figures/cnn.eps Graphic file (type eps)
  <figures/cnn.eps>
 File: figures/pooling.eps Graphic file (type eps)
- <figures/pooling.eps> [19]
+ <figures/pooling.eps> [20]
 File: figures/rnn.eps Graphic file (type eps)
- <figures/rnn.eps> [20]
-[21]
+ <figures/rnn.eps> [21]
+[22]
 第\CJKnumber {3}章 3.
-[22
+[23
 
-] [23]
+] [24]
 File: figures/psd.eps Graphic file (type eps)
- <figures/psd.eps> [24]
+ <figures/psd.eps> [25]
 File: figures/itd.eps Graphic file (type eps)
  <figures/itd.eps>
 File: figures/rate.eps Graphic file (type eps)
- <figures/rate.eps> [25]
-[26]
+ <figures/rate.eps> [26]
+[27]
 File: figures/dataset.eps Graphic file (type eps)
- <figures/dataset.eps> [27]
+ <figures/dataset.eps> [28]
 File: figures/cnnlstm.eps Graphic file (type eps)
- <figures/cnnlstm.eps> [28]
-Overfull \hbox (8.52159pt too wide) in paragraph at lines 465--467
+ <figures/cnnlstm.eps> [29] [30]
+Overfull \hbox (8.52159pt too wide) in paragraph at lines 497--499
 \TU/FandolSong-Regular(0)/m/n/12 其 中 $\OT1/ztmcm/m/n/12 ([]\OML/ztmcm/m/it/12 ;
  []; [][]; []; []\OT1/ztmcm/m/n/12 )$ \TU/FandolSong-Regular(0)/m/n/12 代 表 第 八 
 层 的 输 入 矩 阵，| $\OT1/ztmcm/m/n/12 ([]([])\OML/ztmcm/m/it/12 ; []\OT1/ztmcm/m/n/1
@@ -1849,69 +1849,68 @@ Overfull \hbox (8.52159pt too wide) in paragraph at lines 465--467
  []\OT1/ztmcm/m/n/12 ([]))$
  []
 
-[29]
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 510 replaced by U+FFFD.
 File: figures/feature.eps Graphic file (type eps)
- <figures/feature.eps> [30]
+<figures/feature.eps> [31]
 File: figures/flow.eps Graphic file (type eps)
  <figures/flow.eps>
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 572.
+(Font)              using `TU/ptm/m/n' instead on input line 590.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 572.
+(Font)              using `TU/ptm/bx/n' instead on input line 590.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32] [33]
+[32] [33] [34]
 第\CJKnumber {4}章 4.
 File: figures/architecture.eps Graphic file (type eps)
-<figures/architecture.eps> [34
+<figures/architecture.eps> [35
 
 ]
 File: figures/online_3_component.eps Graphic file (type eps)
- <figures/online_3_component.eps> [35]
+ <figures/online_3_component.eps> [36]
 File: figures/datasetprocessing.eps Graphic file (type eps)
 
-<figures/datasetprocessing.eps> [36]
+<figures/datasetprocessing.eps> [37]
 File: figures/skype1.png Graphic file (type QTm)
- <use  "figures/skype1.png" > [37]
+ <use  "figures/skype1.png" > [38]
 Missing character: There is no （ in font zptmcm7t!
 Missing character: There is no ） in font zptmcm7t!
- [38]
+ [39]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [39]
-[40] [41]
+) [40]
+[41] [42]
 File: figures/kafka.eps Graphic file (type eps)
- <figures/kafka.eps> [42]
+ <figures/kafka.eps> [43]
 File: figures/storm.eps Graphic file (type eps)
- <figures/storm.eps> [43] [44]
+ <figures/storm.eps> [44] [45]
 第\CJKnumber {5}章 5.
-[45
+[46
 
-] [46] [47] [48]
+] [47] [48] [49]
 File: figures/clnn-batch.eps Graphic file (type eps)
  <figures/clnn-batch.eps>
 File: figures/tf.eps Graphic file (type eps)
  <figures/tf.eps>
 File: figures/ml.eps Graphic file (type eps)
  <figures/ml.eps>
-[49] [50] [51] [52]
+[50] [51] [52] [53]
 第\CJKnumber {6}章 6.
-[53
+[54
 
-]) [54]
+]) [55]
 \openout2 = `references.aux'.
 
  (./references.tex
@@ -1949,34 +1948,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
 
  []
 
-[55
+[56
 
 
 
-] [56]) [57] (./main.lof [58
+] [57]) [58] (./main.lof [59
 
 
 ])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [59] (./main.lot)
+ [60] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [60
+ [61
 
 ]
 \openout2 = `acknowledgements.aux'.
 
 
-(./acknowledgements.tex) [61
+(./acknowledgements.tex
+Missing character: There is no 璟 in font [FandolSong-Regular.otf]/OT!
+Missing character: There is no 祎 in font [FandolSong-Regular.otf]/OT!
+) [62
 
 
 ]
 \openout2 = `resume.aux'.
 
- (./resume.tex) [62
+ (./resume.tex) [63
 
 
 
@@ -2012,12 +2014,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34804 strings out of 493005
- 652866 string characters out of 6134596
- 999383 words of memory out of 5000000
- 38381 multiletter control sequences out of 15000+600000
+ 34816 strings out of 493005
+ 653744 string characters out of 6134596
+ 999425 words of memory out of 5000000
+ 38393 multiletter control sequences out of 15000+600000
  42569 words of font info for 158 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,19n,60p,10440b,12464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (69 pages).
+Output written on main.pdf (70 pages).

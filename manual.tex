@@ -1,6 +1,6 @@
 % -*- coding: utf-8 -*-
-\newfontfamily\monaco{Monaco}
-%\newfontfamily\monaco{SimHei}
+%\newfontfamily\monaco{Monaco}
+\newfontfamily\monaco{SimHei}
 \chapter{引言}
 
 \section{研究背景}
@@ -560,7 +560,7 @@ VoIP流过滤器作为实时识别系统的第二个重要组件，它是一个�
 %\renewcommand{\algorithmicensure}{\textbf{Output:}}
 
 
-\begin{algorithm}[h]
+\begin{algorithm}[htp]
 \caption{用于识别VoIP/非VoIP流的算法}
 \label{algorithm:filter}
 \KwIn {$\text{子流}^k$}
@@ -653,7 +653,7 @@ VoIP流过滤器作为实时识别系统的第二个重要组件，它是一个�
 \subsection{数据预处理}
 捕获的原始数据是以pcap文件的格式存储的，每个pcap文件存储的内容为一次VoIP通话所生成的流量。数据预处理就是要将原始pcap文件处理成可供CLNN模型学习的训练数据，一是要按照章节\ref{sec:construct}中介绍的方法进行子流的划分用于提取适于实时识别的特征集，二是要将子流处理成可输入CLNN模型的矩阵格式。
 
-为了采取多个数据集适应不同程度的实时识别，本文按照k值的不同训练了多个CLNN模型。k值包括2，4，6，8，10，20，40和100，以上多个k值所训练出的模型具有不同程度的实时性。其识别准确率与k值成正比，实时性与k值成反比。图片\ref{fig:datasetprocessing}展示了以pcap文件作为输入预处理后以子流作为输出的过程。输出的子流以文本文件的方式进行保存。
+为了采取多个数据集适应不同程度的实时识别，本文按照k值的不同训练了多个CLNN模型。k值包括2，5，10，20，30，40，50和100，以上多个k值所训练出的模型具有不同程度的实时性。其识别准确率与k值成正比，实时性与k值成反比。图片\ref{fig:datasetprocessing}展示了以pcap文件作为输入预处理后以子流作为输出的过程。输出的子流以文本文件的方式进行保存。
 
 \begin{figure}[htp]
 \begin{center}
@@ -681,7 +681,7 @@ VoIP流过滤器作为实时识别系统的第二个重要组件，它是一个�
 CLNN模型经过不断的迭代学习后，输出结果就是用于VoIP子流识别的一系列权重值。CLNN模型使用这些权重值进行正向计算从而可以计算出VoIP子流的识别结果。
 
 \subsection{模型基本结构}
-CLNN模型在学习过程中会生成大量的参数，大量的参数也是CLNN模型准确识别的基础。本节将以k=100对CLNN模型每层所使用的具体参数进行详细介绍。之后列出本文训练的8种模型生成的权值参数个数以及保存权值的HDF5文件大小。
+CLNN模型在学习过程中会生成大量的参数，大量的参数也是CLNN模型准确识别的基础。本节将以$k=100$对CLNN模型每层所使用的具体参数进行详细介绍。之后列出本文训练的8种模型生成的权值参数个数以及保存权值的HDF5文件大小。
 
 % \begin{table}
 %   \caption{CLNN模型参数详情}
@@ -820,7 +820,6 @@ input = Input(input_shape)
 conv = create_cnn_layers(input)
 lstm = create_lstm_layers(input, input_shape[0])
 model = concatenate([conv, lstm],axis=1)
-model = Dense(nb_class, activation='softmax')(model)
 \end{lstlisting}  
 
 \subsection{迭代训练}
@@ -878,12 +877,12 @@ model.fit(X\_train, Y\_train, batch\_size=200,validation\_data=(X\_val, Y\_val),
     \textbf{CLNN-k} & \textbf{输入} & \textbf{权值个数}&\textbf{HDF5(MB)}\\
     \hline
     k=2      & ${2 \times 256 \times 1}$  & 78,468,971  &87  \\
-    k=4      & ${4 \times 256 \times 1}$  & 78,468,971  &87  \\
-    k=6      & ${6 \times 256 \times 1}$  & 95,246,187  &154  \\
-    k=8      & ${8 \times 256 \times 1}$  & 95,246,187  &154 \\
-    k=10     & ${10 \times 256 \times 1}$  & 112,023,403  &221.6  \\
-    k=20     & ${20 \times 256 \times 1}$  & 145,577,835  &355.8 \\
-    k=40     & ${40 \times 256 \times 1}$  & 229,463,915  &691.3  \\
+    k=5      & ${5 \times 256 \times 1}$  & 78,468,971  &87  \\
+    k=10      & ${10 \times 256 \times 1}$  & 95,246,187  &154  \\
+    k=20      & ${20 \times 256 \times 1}$  & 95,246,187  &154 \\
+    k=30     & ${30 \times 256 \times 1}$  & 112,023,403  &221.6  \\
+    k=40     & ${40 \times 256 \times 1}$  & 145,577,835  &355.8 \\
+    k=50     & ${50 \times 256 \times 1}$  & 229,463,915  &691.3  \\
     k=100    & ${100 \times 256 \times 1}$  & 481,122,155  &1619.3  \\
     \hline
   \end{tabular}
@@ -1014,7 +1013,7 @@ tb.setBolt("rediswriterbolt", new RedisWriterBolt()).shuffleGrouping("classifier
   \centering
   \begin{tabular}{c l c c}
     \hline
-    \textbf{VoIP应用类型} & \textbf{平台} & \textbf{数据集大小(MB)}& \textbf{子流数(k=10)}\\
+    \textbf{VoIP应用类型} & \textbf{平台} & \textbf{数据集大小(MB)}& \textbf{$\text{子流}^{10}$}\\
     \hline
     Skype      & Windows, Linux  & 3908.8  &  669984  \\
     UUCall      & Windows  & 2709.4  &  691566  \\
@@ -1057,7 +1056,7 @@ FPR = \frac{{FP}}{{FP + TN}}
 \subsection{识别性能评估}
 根据以上CLNN模型架构及实验基础中使用的参数，我们对11类流量分为8个k值进行了训练得到了8个CLNN模型。本节将对这8个模型按照第一节中介绍的评估指标进行评估。
 
-表格\ref{tab:acc4models}展示了8个模型对训练数据集和验证数据集识别的准确率。训练数据集来自数据集1中的80\%，验证数据集来自数据集1中的20\%。我们可以看出在k值越小时，训练所得模型的识别性能越低。当我们使用由2个数据包构成的子流训练模型时，由于子流携带的课识别的特征太少，CLNN模型的识别准确率仅仅达到65\%；对由4个数据包组成的子流进行识别时，准确率提高到了87\%。当数据包个数达到6个时，识别准确率已经达到了98\%。如表中所示，当k值个数达到10时，k值再增加对识别率的提高作用很小，反而会降低系统的实时性。因此，在我们的实时系统中，我们部署了k值从6到100的6个模型，系统管理员将根据事件的紧急程度和所需准确率进行考量作出选择。
+表格\ref{tab:acc4models}展示了8个模型对训练数据集和验证数据集识别的准确率。训练数据集来自数据集1中的80\%，验证数据集来自数据集1中的20\%。我们可以看出在k值越小时，训练所得模型的识别性能越低。当我们使用由2个数据包构成的子流训练模型时，由于子流携带的课识别的特征太少，CLNN模型的识别准确率仅仅达到65\%；对5个数据包组成的子流进行识别时，准确率提高到了87\%。当数据包个数达到10个时，识别准确率已经达到了98\%。如表中所示，当k值个数达到10时，k值再增加对识别率的提高作用很小，反而会降低系统的实时性。在我们的实施识别系统，我们将8种CLNN模型全部进行部署，由于识别率较低的识别模型所提供的识别概率较低，系统管理员可以根据事件的紧急程度、所需准确率及识别概率进行考量作出选择。
 % \begin{table}
 %   \caption{8个模型对训练数据集和验证数据集的识别率}
 %   \label{tab:acc4models}
@@ -1154,7 +1153,7 @@ FPR = \frac{{FP}}{{FP + TN}}
 % \subsection{其他方法对比}
 
 
-\section{实时性评估}
+\section{实时性能评估}
 为了验证本文搭建的VoIP流量实时识别系统的实时性，本文使用数据集2模拟真实网络环境中的流量进行实时性验证。我们使用tcpreplay软件回放所收集到的VoIP流量，tcpreplay可以将我们收集到的pcap文件进行回放，并且其支持在回放的过程中修改网络层报头。我们通过tcpreplay工具在流量纯净的网卡上进行回放工作，我们记录从收到VoIP流的第一包到识别出结果所耗费的时间。表格\ref{tab:time4folws}展示了实时识别系统识别100个VoIP流所耗费的时间。可以看到，当我们使用k值为100的分类器进行识别平均识别每个流需耗费3秒钟，使用k值为2的分类器耗费0.3秒钟。对于不同情形下的识别需求，网络管理员可以按需对识别结果作出应对。
 
 \begin{table}
@@ -1162,11 +1161,11 @@ FPR = \frac{{FP}}{{FP + TN}}
   %\caption{The time consumed to identify 100 flows.}
   \label{tab:time4folws}
   \centering
-  \begin{tabular}{l l l l l l l }
+  \begin{tabular}{l l l l l l l l l}
     \hline
-    \textbf{Model} &\textbf{k=6}&\textbf{k=8}&\textbf{k=10}&\textbf{k=20}&\textbf{k=40}&\textbf{k=100}\\
+    \textbf{$\text{模型}^k$} &\textbf{k=2}&\textbf{k=5}&\textbf{k=10}&\textbf{k=20}&\textbf{k=30}&\textbf{k=40}&\textbf{k=50}&\textbf{k=100}\\
     \hline
-    时间(s)      &29.09&30.53&48.00&73.62&141.33&309.51  \\
+    时间(s)      &20.55  & 27.12&29.09&30.53&48.00&73.62&141.33&309.51  \\
     \hline
   \end{tabular}
 \end{table}
